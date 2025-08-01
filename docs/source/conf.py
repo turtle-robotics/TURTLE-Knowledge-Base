@@ -2,12 +2,11 @@
 
 # -- Project information
 
-project = 'Knowledge Base'
+project = 'TURTLE Knowledge Base'
 copyright = '2025, TURTLE Robotics'
 author = 'TURTLE Robotics'
 
 release = '0.1'
-version = '0.1.0'
 
 # -- General configuration
 
@@ -17,6 +16,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_design'
 ]
 
 intersphinx_mapping = {
@@ -33,14 +33,11 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = "static/logo.png"
 html_favicon = "static/favicon.png"
 html_theme_options = {
-    'logo_only': False,
+    'logo_only': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
-    'style_nav_header_background': '#500000',
-    'flyout_display': 'hidden',
-    'version_selector': False,
-    'language_selector': False,
+    'style_nav_header_background': '#500000'
 }
 
 

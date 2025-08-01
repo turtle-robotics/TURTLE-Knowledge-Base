@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to the TURTLE Robotics Knowledge Base!
+==============================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This knowledge base is designed to provide a supplimentary resource for TURTLE Robotics members and anyone interested in robotics. It contains documentation on the common tools, software, and hardware used in our projects.
 
 .. note::
 
@@ -18,4 +12,10 @@ Contents
 
 .. toctree::
 
-   usage
+   Mechanical Design
+   solidworks
+   Electronics
+   Software
+   Lab Tools
+   3d_printers
+   Hatchling Project
