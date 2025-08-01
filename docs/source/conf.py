@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Knowledge Base'
+copyright = '2025, TURTLE Robotics'
+author = 'TURTLE Robotics'
 
 release = '0.1'
 version = '0.1.0'
@@ -30,6 +30,19 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_logo = "static/logo.png"
+html_favicon = "static/favicon.png"
+html_theme_options = {
+    'logo_only': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': '#500000',
+    'flyout_display': 'hidden',
+    'version_selector': False,
+    'language_selector': False,
+}
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
