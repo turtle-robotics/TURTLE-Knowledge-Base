@@ -11,11 +11,9 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 1
 
-   Mechanical Design
    solidworks
-   Electronics
-   Software
-   Lab Tools
+   resources
+   lab_tools
    3d_printers
-   Hatchling Project
