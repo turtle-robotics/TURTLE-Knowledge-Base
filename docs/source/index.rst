@@ -15,17 +15,17 @@ Contents
    :maxdepth: 1
 
    lab_tools
+   3d_printers
+   solidworks
 
 .. toctree::
    :caption: Mechanical & Design
    :maxdepth: 1
 
-   3d_printers
-   solidworks
+   design_prin
    gdnt
-   materials
-   design_principles
    gears
+   materials
 
 .. toctree::
    :caption: Electronics & Power
@@ -33,7 +33,6 @@ Contents
 
    batteries
    escs
-   motors
    microcontrollers
    sensors
 
@@ -42,21 +41,20 @@ Contents
    :maxdepth: 1
 
    arduinoide
-   ros
    python
-   git
-   raspberrypi
-   computer_vision
+   raspi
+   ros
+   cv
 
 .. toctree::
    :caption: Theory & Concepts
    :maxdepth: 1
 
-   control_systems
-   kinematics
+   controls
    dynamics
+   kinematics
    path_planning
-   state estimation
+   state_estimation
 
 .. toctree::
    :caption: Resources
@@ -64,4 +62,3 @@ Contents
 
    uni_resources
    web_resources
-
