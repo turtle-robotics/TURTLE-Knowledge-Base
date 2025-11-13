@@ -11,9 +11,57 @@ Contents
 --------
 
 .. toctree::
+   :caption: Lab & Tools
    :maxdepth: 1
 
-   solidworks
-   resources
    lab_tools
+
+.. toctree::
+   :caption: Mechanical & Design
+   :maxdepth: 1
+
    3d_printers
+   solidworks
+   gdnt
+   materials
+   design_principles
+   gears
+
+.. toctree::
+   :caption: Electronics & Power
+   :maxdepth: 1
+
+   batteries
+   escs
+   motors
+   microcontrollers
+   sensors
+
+.. toctree::
+   :caption: Programming & Software
+   :maxdepth: 1
+
+   arduinoide
+   ros
+   python
+   git
+   raspberrypi
+   computer_vision
+
+.. toctree::
+   :caption: Theory & Concepts
+   :maxdepth: 1
+
+   control_systems
+   kinematics
+   dynamics
+   path_planning
+   state estimation
+
+.. toctree::
+   :caption: Resources
+   :maxdepth: 1
+
+   uni_resources
+   web_resources
+
