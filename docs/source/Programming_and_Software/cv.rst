@@ -1,8 +1,8 @@
 Computer Vision
 ===============
 
-Perception Stack
-----------------
+OpenCV
+------
 
 .. todo::
 

@@ -2,7 +2,7 @@ Web Resources
 =============
 
 Websites
---------
+~~~~~~~~
 
 * `Dynamics, Vibrations, and Controls Notes <https://tutorpaul.co.uk/>`_
 * `Lavalle Robotics and Control <https://lavalle.pl/robotics-and-control/>`_
@@ -10,21 +10,22 @@ Websites
 * `Texas A&M Mechanical Engineering Peer Teaching Resources <https://tx.ag/mept>`_
 
 Robotics Platforms
-------------------
+~~~~~~~~~~~~~~~~~~
 
 * `MIT OCW – Introduction to Robotics <https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/>`_
 * `ROS Official Tutorials <http://wiki.ros.org/ROS/Tutorials>`_
 * `ROS Setup / Overview <https://www.rosroboticslearning.com/basics-of-ros>`_
 
 Design Essentials
------------------
+~~~~~~~~~~~~~~~~~
 
 * `507 Mechanical Movements <https://507movements.com>`_
 * `McMaster-Carr (parts sourcing) <https://www.mcmaster.com>`_
 * `MotionGen – Linkage Simulation <https://motiongen.io>`_
+* `The Design of Everyday Things <https://dl.icdst.org/pdfs/files4/4bb8d08a9b309df7d86e62ec4056ceef.pdf>`_
 
 Popular YouTube Channels
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Formal Lecturers
 

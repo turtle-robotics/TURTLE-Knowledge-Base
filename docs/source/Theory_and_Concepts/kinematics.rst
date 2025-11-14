@@ -15,8 +15,14 @@ Inverse Kinematics
 
    Capture strategies for solving IK numerically or analytically.
 
-Singularity Analysis
---------------------
+Modeling
+--------
+
+Dubin
+Differential Drive
+Reed-Shepp
+Omnidirectional
+Articulated Arms
 
 .. todo::
 

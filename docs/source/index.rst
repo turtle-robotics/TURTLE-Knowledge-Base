@@ -11,54 +11,76 @@ Contents
 --------
 
 .. toctree::
-   :caption: Lab & Tools
+   :caption: General Lab
    :maxdepth: 1
 
-   lab_tools
-   3d_printers
-   solidworks
+   Lab_and_Tools/lab_tools
+   Lab_and_Tools/uni_resources
+   Lab_and_Tools/web_resources
 
 .. toctree::
    :caption: Mechanical & Design
    :maxdepth: 1
 
-   design_prin
-   gdnt
-   gears
-   materials
+   Mechanical_and_Design/solidworks
+   Mechanical_and_Design/3d_printers
+   Mechanical_and_Design/materials
+   Mechanical_and_Design/urdf
 
 .. toctree::
    :caption: Electronics & Power
    :maxdepth: 1
 
-   batteries
-   escs
-   microcontrollers
-   sensors
+   Electronics_and_Power/batteries
+   Electronics_and_Power/motors
+   Electronics_and_Power/cables_and_connectors
+   Electronics_and_Power/escs
+   Electronics_and_Power/microcontrollers
+   Electronics_and_Power/arduinoide
 
 .. toctree::
    :caption: Programming & Software
    :maxdepth: 1
 
-   arduinoide
-   python
-   raspi
-   ros
-   cv
+   Programming_and_Software/raspi
+   Programming_and_Software/ros
+   Programming_and_Software/cv
 
 .. toctree::
    :caption: Theory & Concepts
    :maxdepth: 1
 
-   controls
-   dynamics
-   kinematics
-   path_planning
-   state_estimation
+   Theory_and_Concepts/controls
+   Theory_and_Concepts/kinematics
+   Theory_and_Concepts/path_planning
 
 .. toctree::
-   :caption: Resources
+   :caption: Project Management
    :maxdepth: 1
 
-   uni_resources
-   web_resources
+   Project_Management/documentation
+   Project_Management/systems_engineering
+   Project_Management/project_management
+
+
+.. 
+   ToDo::
+
+   Add sections 
+   Mechanical 
+      - Fasteners
+      - Bearings
+      - Gears
+   Electronics
+      - sensors 
+      - proper power
+      - soldering?
+   Programming
+      - git
+      - simulators 
+      - Dual boot/linux
+   Theory
+      - like all of it lmfao
+      - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
+   Project Management
+      - tbh I need to talk to mcgarity 

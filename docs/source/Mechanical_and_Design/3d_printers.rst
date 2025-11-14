@@ -58,6 +58,8 @@ Slicing
 -------
 
 Material Selection:
+~~~~~~~~~~~~~~~~~~~
+
 - **PLA**: Easy to print, biodegradable, most common filament.
 - **PETG**: More flexible and higher peak strength compared to PLA, meant for durability.
 - **ABS**: Strong and heat-resistant, but requires heated bed and enclosure. Risk of warping. Common in injection molding.
@@ -77,12 +79,16 @@ The slicer converts your 3D model into machine instructions for the printer. Thi
 
 
 Machine Parameters:
+~~~~~~~~~~~~~~~~~~~
+
 - Nozzle Diameter: Most printers use a 0.4 mm nozzle, but diameter affects print speed at final resolution.
 - Layer Height: Commonly set between 0.1 mm (high detail) to 0.3 mm (faster prints). Typically tuned with nozzle diamter.
 - Line widths: Usually stick to default based on nozzle diameter, but can affect layer adhesion within and between layers.
 
 Printing Parameters:
-- Infill Pattern: The optimal infill will depend on geometry, required strength infill, and print time. Gyroid is a good all-around choice. Lightning performs well for low-infill parts, and cubic for high-infill parts. Rectilinear is and fast to print. 
+~~~~~~~~~~~~~~~~~~~~
+
+- Infill Pattern: The optimal infill will depend on geometry, required strength infill, and print time. Gyroid is a good all-around choice. Lightning performs well for low-infill parts, and cubic for high-infill parts. Rectilinear is fast to print. 
 - Infill Density: 15-20% is plenty for most parts, increasing infill makes parts stronger and heavier. 
 - Support Structures: Tree supports are often optimal but you may want to select ``normal`` for holes requiring presice fits, or long flat overhangs that tree may not contact well. You can set the overhang angle threshold to control how much support is generated, or you can paint supports manually.
 - Support Style: 
@@ -98,6 +104,7 @@ Printing Parameters:
    2. On the loading surface where most fracture failures initialize.
 
 Bambu Studio Slicing:
+~~~~~~~~~~~~~~~~~~~~~
 
 1. Import the ``.STL``.
 2. Select the printer profile (``Bambu X1C 0.4 nozzle``) and filament.

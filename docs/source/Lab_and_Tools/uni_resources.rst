@@ -2,19 +2,26 @@ University Resources
 ====================
 
 * Zachry Fisher Engineering Design Center (FEDC)
+
   * `FEDC Website <https://engineering.tamu.edu/fedc/>`_
   * CSWA Certification waivers for students
   * Red badge general entry with tool checkout
   * Pop up courses and workshops
+
 * Mechanical Engineering Rapid Prototyping Studio (RPS)
+
   * `RPS Website <https://me.tamu.edu/facilities/rapid-prototyping-studio.html>`_
   * 3D printing, laser cutting, CNC machining
   * credits provided to students in MEEN courses (not necessarily meen-students)
+
 * A&M Architecture Print Shop
+
   * `Architecture Print Shop Website <https://archone.tamu.edu/print-shop/>`_
   * Large format printing (posters, banners, etc)
   * Affordable pricing for students (print credits not taken)
+  
 * Texas A&M Libraries
+
   * `TAMU Libraries Website <https://library.tamu.edu/>`_
   * Access to textbooks, and online resources
 
@@ -67,7 +74,7 @@ Relevant Coursework
 
    * - MATH
      - 304/311
-     - Topics in Applied Mathematics I: Linear Algebra & Vector Calculus
+     - Linear Algebra*
      - `Linear Algebra and its Applications (Lay) <https://broman.dev/download/Linear%20Algebra%20and%20its%20Applications%205th%20Edition.pdf>`_
 
 Robotics Affiliated Faculty
