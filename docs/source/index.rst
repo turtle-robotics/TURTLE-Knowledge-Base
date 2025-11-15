@@ -11,11 +11,76 @@ Contents
 --------
 
 .. toctree::
+   :caption: General Lab
+   :maxdepth: 1
 
-   Mechanical Design
-   solidworks
+   Lab_and_Tools/lab_tools
+   Lab_and_Tools/uni_resources
+   Lab_and_Tools/web_resources
+
+.. toctree::
+   :caption: Mechanical & Design
+   :maxdepth: 1
+
+   Mechanical_and_Design/solidworks
+   Mechanical_and_Design/3d_printers
+   Mechanical_and_Design/materials
+   Mechanical_and_Design/urdf
+
+.. toctree::
+   :caption: Electronics & Power
+   :maxdepth: 1
+
+   Electronics_and_Power/batteries
+   Electronics_and_Power/motors
+   Electronics_and_Power/cables_and_connectors
+   Electronics_and_Power/escs
+   Electronics_and_Power/microcontrollers
+   Electronics_and_Power/arduinoide
+
+.. toctree::
+   :caption: Programming & Software
+   :maxdepth: 1
+
+   Programming_and_Software/raspi
+   Programming_and_Software/ros
+   Programming_and_Software/cv
+
+.. toctree::
+   :caption: Theory & Concepts
+   :maxdepth: 1
+
+   Theory_and_Concepts/controls
+   Theory_and_Concepts/kinematics
+   Theory_and_Concepts/path_planning
+
+.. toctree::
+   :caption: Project Management
+   :maxdepth: 1
+
+   Project_Management/documentation
+   Project_Management/systems_engineering
+   Project_Management/project_management
+
+
+.. 
+   ToDo::
+
+   Add sections 
+   Mechanical 
+      - Fasteners
+      - Bearings
+      - Gears
    Electronics
-   Software
-   Lab Tools
-   3d_printers
-   Hatchling Project
+      - sensors 
+      - proper power
+      - soldering?
+   Programming
+      - git
+      - simulators 
+      - Dual boot/linux
+   Theory
+      - like all of it lmfao
+      - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
+   Project Management
+      - tbh I need to talk to mcgarity 

@@ -1,10 +1,13 @@
-3D Printing
+3D Printers
 ===========
 
 Exporting
 ---------
+
 .. tab-set::
+
   .. tab-item:: SolidWorks
+
      1. Open the part or assembly and verify sketches/features are fully resolved.
      2. Choose :menuselection:`File --> Save As` and pick a destination folder in your project workspace.
      3. For an ``.STL`` export:
@@ -15,7 +18,9 @@ Exporting
         - Repeat the save-as workflow but choose ``STEP AP214 (*.step)``.
         - In :guilabel:`Options`, select ``AP214`` to keep color/layer data when available.
         - Save the file alongside the STL so fabrication and CAD teams share the same revision.
+
   .. tab-item:: Onshape
+
      1. Open the Part Studio or Assembly tab containing the geometry you need to fabricate.
      2. Select the part(s) or the assembly in the feature tree, then right-click and choose :menuselection:`Export`.
      3. In the dialog, pick ``STL`` or ``STEP`` under :guilabel:`Format`.
@@ -25,7 +30,8 @@ Exporting
      5. For ``STEP``:
         - Select ``STEP AP214`` for best compatibility and keep the default chord tolerance unless your vendor requests otherwise.
         - Export to your Downloads folder or shared drive; rename the file with the part number/revision before sharing.
-     Keeping both formats in the same release folder ensures downstream users can either print directly from the ``.STL`` or modify the geometry using the ``.STEP``.
+
+        Keeping both formats in the same release folder ensures downstream users can either print directly from the ``.STL`` or modify the geometry using the ``.STEP``.
 
 File formats:
 
@@ -52,6 +58,8 @@ Slicing
 -------
 
 Material Selection:
+~~~~~~~~~~~~~~~~~~~
+
 - **PLA**: Easy to print, biodegradable, most common filament.
 - **PETG**: More flexible and higher peak strength compared to PLA, meant for durability.
 - **ABS**: Strong and heat-resistant, but requires heated bed and enclosure. Risk of warping. Common in injection molding.
@@ -71,24 +79,32 @@ The slicer converts your 3D model into machine instructions for the printer. Thi
 
 
 Machine Parameters:
+~~~~~~~~~~~~~~~~~~~
+
 - Nozzle Diameter: Most printers use a 0.4 mm nozzle, but diameter affects print speed at final resolution.
 - Layer Height: Commonly set between 0.1 mm (high detail) to 0.3 mm (faster prints). Typically tuned with nozzle diamter.
 - Line widths: Usually stick to default based on nozzle diameter, but can affect layer adhesion within and between layers.
 
 Printing Parameters:
-- Infill Pattern: The optimal infill will depend on geometry, required strength infill, and print time. Gyroid is a good all-around choice. Lightning performs well for low-infill parts, and cubic for high-infill parts. Rectilinear is and fast to print. 
+~~~~~~~~~~~~~~~~~~~~
+
+- Infill Pattern: The optimal infill will depend on geometry, required strength infill, and print time. Gyroid is a good all-around choice. Lightning performs well for low-infill parts, and cubic for high-infill parts. Rectilinear is fast to print. 
 - Infill Density: 15-20% is plenty for most parts, increasing infill makes parts stronger and heavier. 
 - Support Structures: Tree supports are often optimal but you may want to select ``normal`` for holes requiring presice fits, or long flat overhangs that tree may not contact well. You can set the overhang angle threshold to control how much support is generated, or you can paint supports manually.
- - Support Style: 
-   - Tree Styles: There are ``slim``, ``strong``, ``hybrid``, and ``organic`` styles. ``Slim`` branches slower and saves material. ``Strong`` is makes more, overlapping trunks to add strength. ``Hybrid`` seems to create fewer, stronger tree branches. ``Organic`` branch faster to have better contact with the part surface.
-   - Normal Styles: There are ``grid``, and ``snug``. ``Grid`` alternates the perimiter direction each layer for better stability at the cost of vertical strength. ``Snug`` places supports closer to the part surface for better support, but is harder to remove, can affect tolerancing, and part surface.
+- Support Style: 
 
-    .. note::
-    If you need a stronger, you are often better off increasing wall loops than direct infill. Just like an I-beam puts more mass on the edges to better resist bending, increasing wall loops places more material:
-        1. along the edges to increase mass moment of inertia, and
-        2. on the loading surface where most fracture failures initialize
+  - Tree Styles: There are ``slim``, ``strong``, ``hybrid``, and ``organic`` styles. ``Slim`` branches slower and saves material. ``Strong`` is makes more, overlapping trunks to add strength. ``Hybrid`` seems to create fewer, stronger tree branches. ``Organic`` branch faster to have better contact with the part surface.
+  - Normal Styles: There are ``grid``, and ``snug``. ``Grid`` alternates the perimiter direction each layer for better stability at the cost of vertical strength. ``Snug`` places supports closer to the part surface for better support, but is harder to remove, can affect tolerancing, and part surface.
+
+.. note::
+
+   If you need a stronger part, you are often better off increasing wall loops than direct infill. Just like an I-beam puts more mass on the edges to better resist bending, increasing wall loops places more material:
+
+   1. Along the edges to increase mass moment of inertia.
+   2. On the loading surface where most fracture failures initialize.
 
 Bambu Studio Slicing:
+~~~~~~~~~~~~~~~~~~~~~
 
 1. Import the ``.STL``.
 2. Select the printer profile (``Bambu X1C 0.4 nozzle``) and filament.
@@ -108,23 +124,16 @@ Bambu Printing
       .. tab-item:: Polyetherimide (PEI) Plate
 
          - Ensure the PEI plate is clean. If there is an oily residue, use dish soap and sponge by the sink to remove oils.
-         - Ensure the plate is dry and clean before printing
-
-      .. WARNING ::
-         PETG, TPU, Nylon, PC, CF-filled materials all chemically bond to PEI.
-         If you need these materials, please switch to a Cool/Engineering plate.
-
-      .. WARNING ::         
-         Do not put elmers glue on the PEI plates. A clean PEI surface is usually sufficient for adhesion, but glues and constant cleaning will degrade the surface over time.
+         - Ensure the plate is dry and clean before printing.
+         - Avoid PETG, TPU, Nylon, PC, and CF-filled materials on PEI; they chemically bond to the surface. Switch to a Cool/Engineering plate for those materials.
+         - Do not put Elmer's glue on the PEI plates. A clean PEI surface is usually sufficient for adhesion, but glues and constant cleaning will degrade the surface over time.
 
       .. tab-item:: Cool/Engineering Plate
 
          - Ensure the engineering plate is completely dry.
-         - Apply elmer's glue stick. You just need a couple of dense swipes, not a whole layer.
+         - Apply Elmer's glue stick. You just need a couple of dense swipes, not a whole layer.
          - When flipping the plate over, ensure to completely remove the glue from the side you are placing face-down onto the print bed. Please use water and a sponge to clean off any residual glue.
-      
-      .. WARNING ::         
-         Do not cool the plate too quickly. Let your print finish and open the door to let the plate cool naturally. Rapid cooling may warp the plate or create bubbles between the layers.
+         - Do not cool the plate too quickly. Let your print finish and open the door to let the plate cool naturally. Rapid cooling may warp the plate or create bubbles between the layers.
 
    .. tab-set::
 
@@ -147,18 +156,18 @@ Bambu Printing
 
 2. **Start the print**
 
-    - Insert the SD card into the printer.
-    - From the printer menu, select the sliced file and start the print.
-    - Confirm material selections if prompted.
+   - Insert the SD card into the printer.
+   - From the printer menu, select the sliced file and start the print.
+   - Confirm material selections if prompted.
 
-4. **During the print**
+3. **During the print**
 
    - Please monitor the first two layers to ensure proper adhesion before leaving the lab.
    - If filament runs out, the Bambu AMS will only auto-switch if it has at least two spools of the same material, manufacturer, and color. It does not know any of these things, and therefore can be told what it needs to auto-switch if nesessary.
 
-5. **Post-print**
+4. **Post-print**
 
    - Allow the bed to cool so parts release cleanly.
-   - Clean up any scrap filament; if you do not know whose part it is, please place it in the bin labeled "Free Stuff". 
+   - Clean up any scrap filament; if you do not know whose part it is, please place it in the bin labeled "Homeless Prints". 
 
 Reach out to an officer in the lab if you have any issues or questions during the printing process!
