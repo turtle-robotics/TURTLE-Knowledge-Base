@@ -29,4 +29,7 @@ Control Methods
  * PWM Control - Varying the duty cycle of a digital signal to control motor speed.
  * Voltage Control - Adjusting the voltage supplied to the motor to change its speed.
  * Current Control - Regulating the current to manage torque output.
+ * Position Control - Maintaining a specific position using feedback from encoders or sensors.
+ .. Note::
+    Some motors, like stepper motors and servo motors, inherently have internal control mechanisms. Please refer to the product's technical documentation for details.
 
