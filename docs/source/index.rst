@@ -24,6 +24,11 @@ Contents
 
    Mechanical_and_Design/solidworks
    Mechanical_and_Design/3d_printers
+<<<<<<< HEAD
+=======
+   Mechanical_and_Design/materials
+   Mechanical_and_Design/urdf
+>>>>>>> e0b56d6 (Added add'l Resources (#2))
 
 .. toctree::
    :caption: Electronics & Power
@@ -33,6 +38,7 @@ Contents
    Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
    Electronics_and_Power/escs
+<<<<<<< HEAD
    Electronics_and_Power/arduinoide
 
 .. toctree::
@@ -40,10 +46,20 @@ Contents
    :maxdepth: 1
 
    Programming_and_Software/linux
+=======
+   Electronics_and_Power/microcontrollers
+   Electronics_and_Power/arduinoide
+
+.. toctree::
+   :caption: Programming & Software
+   :maxdepth: 1
+
+>>>>>>> e0b56d6 (Added add'l Resources (#2))
    Programming_and_Software/raspi
    Programming_and_Software/ros
    Programming_and_Software/cv
 
+<<<<<<< HEAD
 
 .. toctree::
    :caption: Systems Engineering
@@ -53,18 +69,43 @@ Contents
 
 ..
    to do
+=======
+.. toctree::
+   :caption: Theory & Concepts
+   :maxdepth: 1
+
+   Theory_and_Concepts/controls
+   Theory_and_Concepts/kinematics
+   Theory_and_Concepts/path_planning
+
+.. toctree::
+   :caption: Project Management
+   :maxdepth: 1
+
+   Project_Management/documentation
+   Project_Management/systems_engineering
+   Project_Management/project_management
+
+
+.. 
+   ToDo::
+>>>>>>> e0b56d6 (Added add'l Resources (#2))
 
    Add sections 
    Mechanical 
       - Fasteners
       - Bearings
       - Gears
+<<<<<<< HEAD
    Mechanical_and_Design/urdf
    Mechanical_and_Design/materials
+=======
+>>>>>>> e0b56d6 (Added add'l Resources (#2))
    Electronics
       - sensors 
       - proper power
       - soldering?
+<<<<<<< HEAD
       Electronics_and_Power/microcontrollers
       Electronics_and_Power/arduinoide
    Programming & Software
@@ -84,3 +125,14 @@ Contents
    Project Management
       - tbh I need to talk to mcgarity 
       Project_Management/project_management  
+=======
+   Programming
+      - git
+      - simulators 
+      - Dual boot/linux
+   Theory
+      - like all of it lmfao
+      - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
+   Project Management
+      - tbh I need to talk to mcgarity 
+>>>>>>> e0b56d6 (Added add'l Resources (#2))

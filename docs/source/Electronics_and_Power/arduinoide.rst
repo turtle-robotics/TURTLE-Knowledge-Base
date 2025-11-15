@@ -6,6 +6,8 @@ IDE Configuration
 
 .. todo::
 
+   Note board manager URLs, compiler settings, and serial preferences.
+
 Library Management
 ------------------
 
