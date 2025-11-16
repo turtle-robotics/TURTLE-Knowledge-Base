@@ -118,3 +118,8 @@ Robotics Affiliated Faculty
      - Mechanical
      - `Autonomous Systems Lab <https://autonomy.engr.tamu.edu/>`_
      - Autonomous Vehicles
+
+   * - Manoranjan Majji
+     - Aerospace
+     - `LASR Lab <https://lasr.tamu.edu/>`_
+     - Space Robotics & Dynamics/Controls

@@ -33,6 +33,7 @@ Contents
    Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
    Electronics_and_Power/escs
+   Electronics_and_Power/arduinoide
 
 .. toctree::
    :caption: Programming & Software
@@ -49,8 +50,8 @@ Contents
    Project_Management/documentation
    Project_Management/systems_engineering
 
-.. 
-   ToDo::
+..
+   to do
 
    Add sections 
    Mechanical 
