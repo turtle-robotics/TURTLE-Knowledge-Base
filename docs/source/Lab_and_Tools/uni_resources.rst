@@ -40,7 +40,7 @@ Relevant Coursework
    * - MEEN
      - 408
      - Mechanics of Robotic Manipulators
-     - `Modern Robotics (Craig) <https://hades.mech.northwestern.edu/images/7/7f/MR.pdf>`_
+     - `Modern Robotics (Park and Lynch) <https://hades.mech.northwestern.edu/images/7/7f/MR.pdf>`_
 
    * - CSCE
      - 452
@@ -55,27 +55,27 @@ Relevant Coursework
    * - MATH
      - 407
      - Complex Analysis
-     - `Complex Analysis (Howell) <https://textbooks.aimath.org/textbooks/approved-textbooks/howell/>`_
+     - No textbook endorsed.
 
    * - MEEN
      - 364
      - Dynamic Systems and Controls
-     - Richard C. Dorf and Robert H. Bishop, `Modern Control Systems <https://mrce.in/ebooks/Control-Modern%20Control%20Systems%2014th%20Ed.pdf>`_
+     - No textbook endorsed.
 
    * - ECEN
      - 314
      - Signals and Systems
-     - M.J. Roberts, `Signals and Systems (McGrawHill) <https://perpustakaan.atmaluhur.ac.id/uploaded_files/temporary/DigitalCollection/NzJlNzk3NGRhMTJhNTBmNTVlY2MyZjc1MTU5OGRkNjFhYmJmNzk4Yg==.pdf>`_
+     - No textbook endorsed.
 
    * - CSCE
      - 221
      - Data Structures and Algorithms
-     - `Data Structures & Algorithm Analysis in C++ (Weiss) <https://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf>`_
+     - No textbook endorsed.
 
    * - MATH
      - 304/311
      - Linear Algebra*
-     - `Linear Algebra and its Applications (Lay) <https://broman.dev/download/Linear%20Algebra%20and%20its%20Applications%205th%20Edition.pdf>`_
+     - No textbook endorsed.
 
 Robotics Affiliated Faculty
 ---------------------------
@@ -118,3 +118,8 @@ Robotics Affiliated Faculty
      - Mechanical
      - `Autonomous Systems Lab <https://autonomy.engr.tamu.edu/>`_
      - Autonomous Vehicles
+
+   * - Manoranjan Majji
+     - Aerospace
+     - `LASR Lab <https://lasr.tamu.edu/>`_
+     - Space Robotics & Dynamics/Controls

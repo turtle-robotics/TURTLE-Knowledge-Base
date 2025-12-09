@@ -64,10 +64,9 @@ Charging Procedures
 
 Before charging, always inspect the battery for any signs of damage, swelling, or punctures. Older batteries susceptible to catestrophic failure, espscially during charging. 
 
-
-Storage & Handling
-------------------
-
 .. todo::
+
+   Storage & Handling
+   ------------------
 
    Note transport rules, storage voltages, and disposal steps.

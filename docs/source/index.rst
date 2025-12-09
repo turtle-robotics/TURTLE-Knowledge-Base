@@ -24,8 +24,6 @@ Contents
 
    Mechanical_and_Design/solidworks
    Mechanical_and_Design/3d_printers
-   Mechanical_and_Design/materials
-   Mechanical_and_Design/urdf
 
 .. toctree::
    :caption: Electronics & Power
@@ -35,7 +33,6 @@ Contents
    Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
    Electronics_and_Power/escs
-   Electronics_and_Power/microcontrollers
    Electronics_and_Power/arduinoide
 
 .. toctree::
@@ -47,40 +44,38 @@ Contents
    Programming_and_Software/cv
 
 .. toctree::
-   :caption: Theory & Concepts
-   :maxdepth: 1
-
-   Theory_and_Concepts/controls
-   Theory_and_Concepts/kinematics
-   Theory_and_Concepts/path_planning
-
-.. toctree::
    :caption: Project Management
    :maxdepth: 1
 
    Project_Management/documentation
    Project_Management/systems_engineering
-   Project_Management/project_management
 
-
-.. 
-   ToDo::
+..
+   to do
 
    Add sections 
    Mechanical 
       - Fasteners
       - Bearings
       - Gears
+   Mechanical_and_Design/urdf
+   Mechanical_and_Design/materials
    Electronics
       - sensors 
       - proper power
       - soldering?
+      Electronics_and_Power/microcontrollers
+      Electronics_and_Power/arduinoide
    Programming
       - git
       - simulators 
       - Dual boot/linux
    Theory
       - like all of it lmfao
+      Theory_and_Concepts/path_planning
+      Theory_and_Concepts/kinematics
+      Theory_and_Concepts/controls
       - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
    Project Management
       - tbh I need to talk to mcgarity 
+      Project_Management/project_management  

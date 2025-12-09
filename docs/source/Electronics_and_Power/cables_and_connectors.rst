@@ -19,6 +19,9 @@ Power
    - Anderson Powerpole Connectors - FIRST Robotics standard connector. Universtally genderless design, color coded for various outputs.
    - 4mm Bullet Connectors - common for smaller ESC connections. Have a a smaller profile to other high-current connectors.
 
+.. warning::
+   USB ports on microcontroller boards are typically not designed for high current applications (limited to ~200mA). Avoid using USB ports for power delivery through microcontroller boards in robotics applications.
+
 Telemetry 
 ---------
 
