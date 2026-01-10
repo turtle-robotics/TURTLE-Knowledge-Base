@@ -62,7 +62,7 @@ Charging Procedures
 
    Charging a LiPo or Li-ion battery is likely the single most dangerous activity you will do in your time with TURTLE. Please proceed with extreme caution, and ask for help if you are ever unsure of what to do.
 
-Before charging, always inspect the battery for any signs of damage, swelling, or punctures. Older batteries susceptible to catestrophic failure, espscially during charging. 
+Before charging, always inspect the battery for any signs of damage, swelling, or punctures. Older batteries are particularly susceptible to catestrophic failure, espscially during charging. 
 
 .. todo::
 

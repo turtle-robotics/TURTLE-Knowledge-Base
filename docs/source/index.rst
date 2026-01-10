@@ -36,12 +36,14 @@ Contents
    Electronics_and_Power/arduinoide
 
 .. toctree::
-   :caption: Programming & Software
+   :caption: Software & Programming
    :maxdepth: 1
 
+   Programming_and_Software/linux
    Programming_and_Software/raspi
    Programming_and_Software/ros
    Programming_and_Software/cv
+
 
 .. toctree::
    :caption: Systems Engineering
@@ -65,10 +67,14 @@ Contents
       - soldering?
       Electronics_and_Power/microcontrollers
       Electronics_and_Power/arduinoide
-   Programming
+   Programming & Software
       - git
       - simulators 
       - Dual boot/linux
+      Programming_and_Software/raspi
+      Programming_and_Software/ros
+      Programming_and_Software/cv
+
    Theory
       - like all of it lmfao
       Theory_and_Concepts/path_planning
