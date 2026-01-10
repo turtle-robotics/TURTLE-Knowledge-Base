@@ -11,10 +11,8 @@ Types of feedback
  * Hall Effect Sensors - a small sensor that measures the flux from the rotating magnet past a coil to estimate the speed of the motor. Commonly configured in trios around the motor stator for three-phase systems.
  * Back-EMF Sensing - a 'sensorless' method where the ESC monitors the voltage induced in the motor windings to estimate rotor position. This method is carries higher uncertainty but is still used due to low hardware costs.
 
-.. todo::
-   
-   ESC Selection
-   -------------
+ESC Selection
+-------------
 
 .. todo::
 
