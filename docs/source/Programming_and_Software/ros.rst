@@ -1,7 +1,6 @@
 Robot Operating System (ROS)
 ============================
 
-<<<<<<< HEAD
 Quick Links
 -----------
 
@@ -44,7 +43,7 @@ Starter Tutorials
 - ROS 2: `URDF + RViz quickstart <https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Modeling-a-Robot-with-URDF.html>`_
 - ROS 1: `Official wiki tutorials <http://wiki.ros.org/ROS/Tutorials>`_
 - Simulation: `Gazebo-ROS integration overview <https://classic.gazebosim.org/tutorials?tut=ros_overview>`_
-=======
+
 Workspace Structure
 -------------------
 
@@ -72,4 +71,3 @@ Deployment
 .. todo::
 
    Explain how launches are run on robots and how configs are versioned.
->>>>>>> e0b56d6 (Added add'l Resources (#2))

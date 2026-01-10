@@ -5,15 +5,8 @@ Embedded Programming
 
    .. tab-item:: Arduino IDE
 
-<<<<<<< HEAD
-   Note board manager URLs, compiler settings, and serial preferences.
-
-Library Management
-------------------
-=======
       Setup & Configuration
       ---------------------
->>>>>>> 0a03eb5 (page cleanup & taking down empty pages)
 
       1. Download and install the Arduino IDE from the official website: https://www.arduino.cc/en/software
 
@@ -66,3 +59,6 @@ Library Management
       
       Espressif has their own Quick Installation Guide: https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md
 
+.. TODO::
+ 
+   talk about arm and amd 

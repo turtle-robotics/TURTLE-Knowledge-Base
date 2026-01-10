@@ -11,15 +11,14 @@ Environment Representation
 Planning Algorithms
 -------------------
 
-<<<<<<< HEAD
  * Graph Search Planners
    
-   - uninformed Search
+   - Uninformed Search
      - Breadth-First Search
      - Depth-First Search
      - Dijkstra's Algorithm
 
-   - informed Search
+   - Informed Search
      - A* Search
      - D* Lite
 
@@ -33,8 +32,6 @@ Planning Algorithms
    - CHOMP
    - TrajOpt
 
-=======
->>>>>>> e0b56d6 (Added add'l Resources (#2))
 .. todo::
 
    Compare graph search, sampling-based, and optimization planners we use.
@@ -42,15 +39,12 @@ Planning Algorithms
 Trajectory Optimization
 -----------------------
 
-<<<<<<< HEAD
  * Spline fitting
  * Polynomial trajectories
  * Kinodynamic planning
    * Dubin paths
    * Reeds-Shepp paths
 
-=======
->>>>>>> e0b56d6 (Added add'l Resources (#2))
 .. todo::
 
    Explain how trajectories are smoothed and parameterized for controllers.
