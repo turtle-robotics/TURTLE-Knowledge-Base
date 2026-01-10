@@ -5,7 +5,7 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
 
 .. note::
 
-   This project is under active development.
+   This wiki is under active development.
 
 Contents
 --------
@@ -46,3 +46,10 @@ Contents
    Programming_and_Software/ros
    Programming_and_Software/arduinoide
 
+Other TURTLE Resources
+----------------------
+* `TURTLE Robotics Website <https://turtlerobotics.org/>`_
+* `TURTLE Application <https://turtlerobotics.org/apply>`_
+*  `Lab Safety Rules <https://www.turtlerobotics.org/pdfs/LAB_SAFETY_RULES.pdf>`_
+*  `TURTLE Constitution <https://www.turtlerobotics.org/pdfs/TURTLE_Constitution.pdf>`_
+*  `Officer Roles <https://www.turtlerobotics.org/pdfs/Officer_Roles.pdf>`_

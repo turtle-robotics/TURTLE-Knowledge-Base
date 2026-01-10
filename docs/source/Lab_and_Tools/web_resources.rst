@@ -1,6 +1,8 @@
 Web Resources
 =============
 
+This is a collection of useful web resources from non-TAMU sources.
+
 Websites
 ~~~~~~~~
 

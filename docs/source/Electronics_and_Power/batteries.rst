@@ -31,6 +31,7 @@ Chemistries
  * LiPo (Lithium Polymer)
  * Li-ion (Lithium Ion)
  * NiMH (Nickel Metal Hydride)
+ * Pb Acid (Lead Acid)
 
 .. todo::
 
