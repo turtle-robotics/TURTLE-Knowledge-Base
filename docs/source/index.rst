@@ -44,11 +44,10 @@ Contents
    Programming_and_Software/cv
 
 .. toctree::
-   :caption: Project Management
+   :caption: Systems Engineering
    :maxdepth: 1
 
-   Project_Management/documentation
-   Project_Management/systems_engineering
+   Design_Reviews/phases_of_development
 
 ..
    to do
