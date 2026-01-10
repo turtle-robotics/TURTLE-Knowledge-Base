@@ -1,76 +1,68 @@
-Arduino IDE
-===========
+Embedded Programming
+====================
 
-IDE Configuration
------------------
+.. tab-set::
 
-.. todo::
+   .. tab-item:: Arduino IDE
 
+<<<<<<< HEAD
    Note board manager URLs, compiler settings, and serial preferences.
 
 Library Management
 ------------------
+=======
+      Setup & Configuration
+      ---------------------
+>>>>>>> 0a03eb5 (page cleanup & taking down empty pages)
 
-Libraries are a collection of code that makes it easy for you to connect to a sensor, display, module, etc. For example, the LiquidCrystal library makes it easy to talk to character LCD displays.
+      1. Download and install the Arduino IDE from the official website: https://www.arduino.cc/en/software
 
-You can easily install libraries via the Library Manager:
-   1. Open Arduino IDE
-   2. Go to Sketch > Include Library > Manage Libraries...
-   3. In the Library Manager window, use the search bar to find the library you need
-   4. Select the library from the list and click the Install button
-   5. Once installed, you can include the library in your sketch by going to Sketch > Include Library and selecting it from the list
+      2. Connect your board to the computer via USB
 
-Build & Upload Process
-----------------------
+         .. tab-set::
+            
+            .. tab-item:: Windows
 
-To upload a sketch to an Arduino-compatible board, follow these steps:
-   1. Open Arduino IDE
-   2. Connect board to computer via USB (USB cable may vary by board)
-   3. Select board type from Tools > Board menu. You may need to install the board package via Board Manager first. The package should be in the product's documentation.
-   4. Select appropriate COM port from Tools > Port menu (USB)
-   5. Optional: Check the Verify button to compile the sketch for errors (check button at top-left)
-   6. Click the Upload button to compile and upload the sketch to the board (right arrow at top-left)
+               Open Device Manager (Win + X > Device Manager) and look under "Ports (COM & LPT)" to verify your board appears.
 
-Debugging Tools
----------------
+            .. tab-item:: Linux
+            
+               Run ``ls /dev/tty*`` in the terminal before and after plugging in your board. Look for new entries like ``/dev/ttyUSB0`` or ``/dev/ttyACM0``.
 
-The **Serial Monitor** is an essential tool when creating projects with Arduino. It can be used as a debugging tool, testing out concepts or to communicate directly with the Arduino board.
+      3. Set up the board and port by navigating to:
+         
+         - Tools > Board: Select your board type
+         - Tools > Port: Select the correct COM port
 
-.. code-block:: cpp
+      4. Install any libraries needed for your project via the Library Manager:
+         
+         a. Go to Sketch > Include Library > Manage Libraries...
+         b. Once installed, include it in your sketch via Sketch > Include Library
 
-   // Example code for Serial Monitor with different baud rates
+      .. note::
+      
+         Each library you include will use memory on your microcontroller, which can run out quickly if you include too many libraries.
 
-   void setup() {
-      Serial.begin(9600);
-      Serial1.begin(38400);
-      Serial2.begin(19200);
+      5. Write your code in the IDE, likely starting from a template or hatchling example: https://github.com/turtle-robotics/Hatchling-Examples
+      
+      6. Verify your code by clicking the Verify button (check mark at top-left) to check for errors
+      
+      7. Click Upload (right arrow at top-left) to compile and upload the sketch to your board
 
-      Serial.println("Hello Computer");
-      Serial1.println("Hello Serial 1");
-      Serial2.println("Hello Serial 2");
-   }
+   .. tab-item:: VS Code
 
-   void loop() {}
+      ESP-IDF Extension
+      -----------------
 
-The **Serial Plotter tool** is a versatile tool for tracking different data that is sent from your Arduino board. It functions similarly to your standard Serial Monitor tool which is used to print data "terminal style", but is a greater visual tool that will help you understand and compare your data better.
+      The recommended way to work with ESP microcontrollers in VS Code is using the ESP-IDF (ESP-IoT Development Framework) extension.
 
-.. code-block:: cpp
+      Installation
+      ~~~~~~~~~~~~~
 
-   // Example code for Serial Plotter
+      1. Open VS Code
+      2. Navigate to the Extensions marketplace (Ctrl+Shift+X / Cmd+Shift+X)
+      3. Search for "ESP-IDF" by Espressif
+      4. Click Install on the official extension
+      
+      Espressif has their own Quick Installation Guide: https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md
 
-   int sensorValue;
-
-   void setup() {
-      Serial.begin(9600);
-   }
-
-   void loop() {
-      sensorValue = analogRead(A0);
-      Serial.print("Sensor Value: ");
-      Serial.println(sensorValue);
-      delay(100);
-   }
-
-.. todo::
-
-   List serial monitor, logic analyzer, or ICE workflows for debugging.

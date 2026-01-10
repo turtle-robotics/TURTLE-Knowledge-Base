@@ -137,9 +137,13 @@ Charging Procedures
 
 Before charging, always inspect the battery for any signs of damage, swelling, or punctures. Older batteries susceptible to catestrophic failure, espscially during charging. 
 
+<<<<<<< HEAD
 
 Storage & Handling
 ------------------
+=======
+First, take note of the chemistry, votlage, and capacity of the battery, as you will need to input this to the charger. TURTLE has some chargers that plug into a wall outlet, and some that require direct DC power from the DC power supply. Set the charger to match the battery specifications. The large plug (typically XT60 or similar) on the battery is for charging and discharging high current loads, while the smaller connector (typically JST or similar) is used by the charger to monitor and balance each cell. Always connect the balance connector to the charger if available, and some chargers may refuse to charge without the balance connector.
+>>>>>>> 0a03eb5 (page cleanup & taking down empty pages)
 
 .. todo::
 

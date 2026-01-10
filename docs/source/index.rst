@@ -35,8 +35,8 @@ Contents
    :maxdepth: 1
 
    Electronics_and_Power/batteries
-   Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
+<<<<<<< HEAD
    Electronics_and_Power/escs
 <<<<<<< HEAD
    Electronics_and_Power/arduinoide
@@ -48,6 +48,8 @@ Contents
    Programming_and_Software/linux
 =======
    Electronics_and_Power/microcontrollers
+=======
+>>>>>>> 0a03eb5 (page cleanup & taking down empty pages)
    Electronics_and_Power/arduinoide
 
 .. toctree::
@@ -66,6 +68,7 @@ Contents
    :maxdepth: 1
 
    Design_Reviews/phases_of_development
+   Design_Reviews/design_reviews
 
 ..
    to do
@@ -117,13 +120,12 @@ Contents
       Programming_and_Software/cv
 
    Theory
-      - like all of it lmfao
       Theory_and_Concepts/path_planning
       Theory_and_Concepts/kinematics
       Theory_and_Concepts/controls
       - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
-   Project Management
-      - tbh I need to talk to mcgarity 
+   
+      TODO: Project Management section - need to talk to mcgarity
       Project_Management/project_management  
 =======
    Programming

@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'TURTLE Knowledge Base'
-copyright = '2025, TURTLE Robotics'
+copyright = '2026, TURTLE Robotics'
 author = 'TURTLE Robotics'
 
-release = '0.1'
+release = '2.0'
 
 # -- General configuration
 
@@ -39,7 +39,9 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
-    'style_nav_header_background': '#500000'
+    'style_nav_header_background': '#500000',\
+    'collapse_navigation': False,
+    'sticky_navigation': True,
 }
 
 
