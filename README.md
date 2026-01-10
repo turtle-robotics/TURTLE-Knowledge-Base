@@ -6,11 +6,7 @@ This site is live on [the turtle github site](https://turtle-robotics.github.io/
 
 Or through [the A&M tx.ag tinyurl](https://tx.ag/TURTLEdocs)
 
-<<<<<<< HEAD
 This initiative was started by Ian [1] Lansdowne, continued by Ian [2] Wilhite and Ryo Kato, and is currently open to additional contributors. Please reach out to <meen-turtle@tamu.edu> for formal collaborations.
-=======
-This initiative was started by Ian [1] Lansdowne, continued by Ian [2] Wilhite, and is currently open to additional contributors. Please reach out to <meen-turtle@tamu.edu> for formal collaborations.
->>>>>>> e0b56d6 (Added add'l Resources (#2))
 
 ## Repository Structure
 
