@@ -43,28 +43,4 @@ Phases Summary
 | Continuing Design Review    | Ongoing documentation updates                | No phase change               | Same      |
 +-----------------------------+----------------------------------------------+-------------------------------+-----------+
 
-+-----------------------------+----------------------------------------------+-------------------------------+-----------+
-| Milestone                   | Deliverables                                 | Phase Transition              | Budget    |
-+=============================+==============================================+===============================+===========+
-| Project Proposal            | Project Scope                                | None -> Research              | $100      |
-+-----------------------------+----------------------------------------------+-------------------------------+-----------+
-| Preliminary Design Review   | Project Objectives                           | Research -> Prototyping       | <= $500   |
-| (PDR)                       |                                              |                               |           |
-|                             | System requirements and design choices       |                               |           |
-|                             |                                              |                               |           |
-|                             | Bill of Materials (BOM)                      |                               |           |
-|                             |                                              |                               |           |
-|                             | Gantt Chart                                  |                               |           |
-+-----------------------------+----------------------------------------------+-------------------------------+-----------+
-| Critical Design Review      | Project Objectives                           | Prototyping -> Production     | <= $1000  |
-| (CDR)                       |                                              |                               |           |
-|                             | System requirements and design choices       |                               |           |
-|                             |                                              |                               |           |
-|                             | Bill of Materials (BOM)                      |                               |           |
-|                             |                                              |                               |           |
-|                             | Gantt Chart                                  |                               |           |
-+-----------------------------+----------------------------------------------+-------------------------------+-----------+
-| Continuing Design Review    | Ongoing documentation updates                | No phase change               | Same      |
-+-----------------------------+----------------------------------------------+-------------------------------+-----------+
-
 
