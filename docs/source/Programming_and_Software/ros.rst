@@ -44,30 +44,6 @@ Starter Tutorials
 - ROS 1: `Official wiki tutorials <http://wiki.ros.org/ROS/Tutorials>`_
 - Simulation: `Gazebo-ROS integration overview <https://classic.gazebosim.org/tutorials?tut=ros_overview>`_
 
-Workspace Structure
--------------------
+.. note ::
 
-.. todo::
-
-   Define how catkin/colcon workspaces are organized in the repo.
-
-Node Development
-----------------
-
-.. todo::
-
-   Outline expectations for node composition, parameters, and logging.
-
-Simulation & Testing
---------------------
-
-.. todo::
-
-   Document Gazebo/ignition workflows and automated tests.
-
-Deployment
-----------
-
-.. todo::
-
-   Explain how launches are run on robots and how configs are versioned.
+   ROS 1 is depricated or being phased out in most applications. If someone refers to "ROS", the probably mean ROS 2, or are doing something very wrong. 
