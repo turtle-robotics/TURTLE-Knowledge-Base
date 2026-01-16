@@ -23,7 +23,7 @@ jobs:
         with:
           path: _build/
   deploy-to-gh-pages:
-    needs: docs
+    needs: build-sphinx-site
     permissions:
       pages: write
       id-token: write
