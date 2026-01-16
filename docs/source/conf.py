@@ -31,6 +31,13 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_context = {
+    "display_github": True,
+    "github_user": "turtle-robotics",
+    "github_repo": "TURTLE-Knowledge-Base",
+    "github_version": "main",
+    "conf_py_path": "/docs/source/",
+}
 html_theme = 'sphinx_rtd_theme'
 html_logo = "static/logo.png"
 html_favicon = "static/favicon.png"
