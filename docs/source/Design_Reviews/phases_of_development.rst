@@ -127,7 +127,7 @@ Deliverables
       i. **Basic electronics diagrams**
       ii. **High-level pseudocode** (all code must be uploaded onto the project's GitHub repository)
       iii. **Rough CAD drawings or design sketches**
-      iv. **Any other relevant pictures of the project's progeress**
+      iv. **Any other relevant pictures of the project's progress**
 
 3. **Bill of Materials (BOM)**
 
@@ -168,6 +168,7 @@ Deliverables
       v. **Simulations**
       vi. **Test Data**
       vii. **Any other relevant pictures of the project's progress**
+
 3. **Final Bill of Materials (BOM)**
 
    a. A final list of materials, components, and quantities required to progress into the Production Phase.
