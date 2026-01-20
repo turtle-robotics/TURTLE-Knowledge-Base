@@ -123,7 +123,11 @@ Deliverables
    a. Functional and performance requirements and their rationale to meet the Project Objectives.  
    b. Start with high-level requirements and number them as R-1, R-2, etc.  
    c. All system requirements must be traced back to a Project Objective.  
-   d. All design choices must be traced back to a system requirement and supported by basic electronic diagrams, high-level pseudocode, rough CAD drawings, and/or images. All code must be uploaded to the project GitHub repository.
+   c. All design choices must be traced back to a system requirement and must be supported by documentation from the project, including but not limited to:
+      i. **Basic electronics diagrams**
+      ii. **High-level pseudocode** (all code must be uploaded onto the project's GitHub repository)
+      iii. **Rough CAD drawings or design sketches**
+      iv. **Any other relevant pictures of the project's progeress**
 
 3. **Bill of Materials (BOM)**
 
@@ -156,8 +160,14 @@ Deliverables
 
    a. Functional and performance requirements and their rationale to meet the Project Objectives.  
    b. Start with high-level requirements and number them as R-1, R-2, etc.  
-   c. All design choices must be traced back to a system requirement and supported by trade studies, detailed electronic diagrams, functional code, detailed CAD drawings, simulations, test data, and/or images. All code must be uploaded to the project GitHub repository.
-
+   c. All design choices must be traced back to a system requirement and must be supported by documentation from the project, including but not limited to:
+      i. **Trade studies**
+      ii. **Functional code** (all code must be uploaded onto the project's GitHub repository)
+      iii. **Detailed CAD drawings and assemblies**
+      iv. **Detailed CAD drawings and assemblies**
+      v. **Simulations**
+      vi. **Test Data**
+      vii. **Any other relevant pictures of the project's progress**
 3. **Final Bill of Materials (BOM)**
 
    a. A final list of materials, components, and quantities required to progress into the Production Phase.
