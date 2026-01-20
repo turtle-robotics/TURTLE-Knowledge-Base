@@ -161,13 +161,13 @@ Deliverables
    a. Functional and performance requirements and their rationale to meet the Project Objectives.  
    b. Start with high-level requirements and number them as R-1, R-2, etc.  
    c. All design choices must be traced back to a system requirement and must be supported by documentation from the project, including but not limited to:
-      i. **Trade studies**
-      ii. **Functional code** (all code must be uploaded onto the project's GitHub repository)
-      iii. **Detailed CAD drawings and assemblies**
-      iv. **Detailed CAD drawings and assemblies**
-      v. **Simulations**
-      vi. **Test Data**
-      vii. **Any other relevant pictures of the project's progress**
+      1. **Trade studies**
+      2. **Functional code** (all code must be uploaded onto the project's GitHub repository)
+      3. **Detailed CAD drawings and assemblies**
+      4. **Detailed CAD drawings and assemblies**
+      5. **Simulations**
+      6. **Test Data**
+      7. **Any other relevant pictures of the project's progress**
 
 3. **Final Bill of Materials (BOM)**
 
