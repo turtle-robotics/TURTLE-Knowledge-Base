@@ -77,13 +77,12 @@ High-Power Systems
 Battery Management Systems (BMS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A Battery Management System (BMS) is a built-in circuit manages battery charging& discharging. They are used when *many* cells are connected and in large loads. A BMS typically provides charging + Cell balancing, Over-charge protection, Over-discharge protection, Temperature monitoring, and Current limiting.
+A Battery Management System (BMS) is a built-in circuit that manages charging and discharging. They are used when *many* cells are connected to support large loads. A BMS typically provides charging, balancing, over-charge protection, over-discharge protection, temperature monitoring, and current limiting.
 
 Anti-Spark Connectors:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Anti-spark connectors are sometimes used on high-capacity packs to prevent dangerous arcs when connecting/disconnecting batteries. These connectors use a series resistance to limit inrush current.
-
 
 Voltage Sag
 ~~~~~~~~~~~
