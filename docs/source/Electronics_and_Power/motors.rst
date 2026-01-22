@@ -30,6 +30,8 @@ Control Methods
  * Voltage Control - Adjusting the voltage supplied to the motor to change its speed.
  * Current Control - Regulating the current to manage torque output.
  * Position Control - Using feedback systems (like encoders) to achieve desired motor positions.
- .. note::
+
+.. note::
+
    Servos and some motors usually have built-in control systems for position and speed. Check the product's documentation for details.
 

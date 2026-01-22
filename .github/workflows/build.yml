@@ -6,7 +6,7 @@ permissions:
   contents: write
 
 jobs:
-  docs:
+  build-sphinx-site:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,8 +22,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _build/
-  deploy:
-    needs: docs
+  deploy-to-gh-pages:
+    needs: build-sphinx-site
     permissions:
       pages: write
       id-token: write

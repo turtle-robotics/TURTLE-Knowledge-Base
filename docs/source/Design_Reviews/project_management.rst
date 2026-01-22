@@ -6,14 +6,23 @@ Team Structure
 
 .. todo::
 
-   Document typical roles (lead, systems, controls, manufacturing) and their responsibilities.
+   Document typical roles (PL, subteam leads, electical subteam, mechanical subteam, project-specific like biomechanics, materials, or safety).
+
+Project Management Methodologies
+--------------------------------
+
+.. todo::
+
+   Agile -> interchangable parts (scrum, git-based manangement)
+   waterfall -> NASA only builds one rocket
+   rapid prototyping -> generations of designs (V1.0 -> V2.0)
 
 Communication
 -------------
 
 .. todo::
 
-   Explain sprint/phase lengths, meeting templates, and reporting expectations.
+   Explain sprint/phase small-scale how to run a meeting, and long-scale how to plan goals
 
 Task Tracking
 -------------
@@ -22,7 +31,7 @@ Task Tracking
 
 .. todo::
 
-   Describe how tasks are entered, prioritized, and reviewed (e.g., Jira, Notion, GitHub Projects).
+   Describe how tasks are entered, prioritized, and reviewed (e.g., google sheetsm Jira, Notion, GitHub Projects).
 
 Resource Allocation
 -------------------

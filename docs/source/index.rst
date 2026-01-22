@@ -5,13 +5,13 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
 
 .. note::
 
-   This project is under active development.
+   This wiki is under active development.
 
 Contents
 --------
 
 .. toctree::
-   :caption: General Lab
+   :caption: General
    :maxdepth: 1
 
    Lab_and_Tools/lab_tools
@@ -19,62 +19,37 @@ Contents
    Lab_and_Tools/web_resources
 
 .. toctree::
-   :caption: Mechanical & Design
+   :caption: Systems
+   :maxdepth: 1
+
+   Design_Reviews/phases_of_development
+   Design_Reviews/design_reviews
+
+.. toctree::
+   :caption: Mechanical
    :maxdepth: 1
 
    Mechanical_and_Design/solidworks
    Mechanical_and_Design/3d_printers
 
 .. toctree::
-   :caption: Electronics & Power
+   :caption: Electical
    :maxdepth: 1
 
    Electronics_and_Power/batteries
-   Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
-   Electronics_and_Power/escs
-   Electronics_and_Power/arduinoide
 
 .. toctree::
-   :caption: Programming & Software
+   :caption: Software
    :maxdepth: 1
 
-   Programming_and_Software/raspi
    Programming_and_Software/ros
-   Programming_and_Software/cv
+   Programming_and_Software/arduinoide
 
-.. toctree::
-   :caption: Systems Engineering
-   :maxdepth: 1
-
-   Design_Reviews/phases_of_development
-
-..
-   to do
-
-   Add sections 
-   Mechanical 
-      - Fasteners
-      - Bearings
-      - Gears
-   Mechanical_and_Design/urdf
-   Mechanical_and_Design/materials
-   Electronics
-      - sensors 
-      - proper power
-      - soldering?
-      Electronics_and_Power/microcontrollers
-      Electronics_and_Power/arduinoide
-   Programming
-      - git
-      - simulators 
-      - Dual boot/linux
-   Theory
-      - like all of it lmfao
-      Theory_and_Concepts/path_planning
-      Theory_and_Concepts/kinematics
-      Theory_and_Concepts/controls
-      - I want to intentionally leave this to undergrads. I know that zach/others would help in a heartbeat, but I think its more important that this be by current turtles
-   Project Management
-      - tbh I need to talk to mcgarity 
-      Project_Management/project_management  
+Other TURTLE Resources
+----------------------
+* `TURTLE Robotics Website <https://turtlerobotics.org/>`_
+* `TURTLE Application <https://turtlerobotics.org/apply>`_
+*  `Lab Safety Rules <https://www.turtlerobotics.org/pdfs/LAB_SAFETY_RULES.pdf>`_
+*  `TURTLE Constitution <https://www.turtlerobotics.org/pdfs/TURTLE_Constitution.pdf>`_
+*  `Officer Roles <https://www.turtlerobotics.org/pdfs/Officer_Roles.pdf>`_

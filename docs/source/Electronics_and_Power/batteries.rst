@@ -1,25 +1,15 @@
 Batteries
 =========
 
-Overview
---------
-
-.. todo::
-
-   Provide an overview of battery fundamentals including terminology (cell vs pack, nominal voltage, capacity rating), common battery types used in robotics, and safety considerations when handling and charging batteries. Include tips on selecting appropriate batteries for different robot applications and explain why proper battery management is critical.
-
 Math
 ----
 
-Physics
-~~~~~~~
-
- * Voltage adds in series: V_total = V_1 + V_2 + ... + V_n
- * Current adds in parallel: I_total = I_1 + I_2 + ... + I_n
- * Power is measured in watts (W), which is found by multiplying the voltage and current. 
- * Energy is measued with power by time, or in watt-hours (Wh). 
-
-However, most cells instead show a rating in miliamp hours (mAh). For a given cell, the voltage is known by the chemstry, and therefore the energy capacity can be found by simply diving the watt-hours by the voltage to find the amp-hours (Ah). This value will become useful as we start to size batteries for our applications.
+ * **Voltage** adds in series: V_total = V_1 + V_2 + ... + V_n
+ * **Current** adds in parallel: I_total = I_1 + I_2 + ... + I_n
+ * **Power** is measured in watts (W), which represents the "load" of the system (and the heat generated!). 
+ * **Energy** is measured with power by time, or in watt-hours (Wh), representing the energy stored, or work that can be done.
+ * **Capacity** is measured in milliamp-hours (mAh) or amp-hours (Ah), representing the charge a battery can store.
+ * **Continuous Current (CCA)** is the maximum current a battery can safely deliver continuously.
 
 Packs
 ~~~~~
@@ -35,38 +25,71 @@ We know that voltage adds in series, and current adds in parallel, so we can fin
    Energy capacity in Wh is found by multiplying voltage (V), current (A), and time (h). 
    By measuring capacity in mAh, we can find the energy capacity of a battery pack by multiplying the total voltage (from series connections) by the total current capacity (from parallel connections).
 
-Chemistries
------------
-
- * LiPo (Lithium Polymer)
- * Li-ion (Lithium Ion)
- * NiMH (Nickel Metal Hydride)
-
-.. todo::
-
-   Compare LiPo, Li-ion, NiMH, and when each is used.
-
 Sizing & Selection
 ------------------
 
+Chemistries
+~~~~~~~~~~~
+
+ * LiPo "Lie-poh" (Lithium Polymer)
+ * Li-ion "Lie-on" (Lithium Ion)
+ * NiMH "Nim" (Nickel Metal Hydride)
+ * Pb Acid (Lead Acid)
+ * LiFePO4 "Life-Poh" (Lithium Iron Phosphate)
+
+Sizing
+~~~~~~
+
  #. Determine voltage requirements of your system.
  #. Estimate current draw under typical and peak loads.
- #. Calculate required capacity based on desired runtime.
+ #. Calculate required capacity based on desired current x runtime.
  #. Choose a battery chemistry that fits your weight, size, and performance needs.
  #. Select a pack configuration (SxP) that meets voltage and capacity requirements.
+
+Common Cell Formats
+~~~~~~~~~~~~~~~~~~~
+
+Individual battery cells come in standardized sizes. The most common are:
+
+ * **18650** - Cylindrical cell, 18mm diameter × 65mm length. Commonly used in custom pack builds.
+ * **21700** - Cylindrical cell, 21mm diameter × 70mm length. Newer format with higher capacity than 18650.
 
 Charging Procedures
 -------------------
 
 .. warning::
 
-   Charging a LiPo or Li-ion battery is likely the single most dangerous activity you will do in your time with TURTLE. Please proceed with extreme caution, and ask for help if you are ever unsure of what to do.
+   Charging a LiPo or Li-ion battery is likely the single most dangerous activity you will do in your time with TURTLE. Our chargers have built in safety features, but I don't intend on verifying them.
 
-Before charging, always inspect the battery for any signs of damage, swelling, or punctures. Older batteries susceptible to catestrophic failure, espscially during charging. 
+ #. Inspect the battery for any signs of damage, swelling, or punctures.
+ #. Do not charge batteries that show signs of damage. Older batteries are susceptible to catastrophic failure, especially during charging.
+ #. Note the battery chemistry (LiPo, Li-ion, NiMH, etc.), voltage, and capacity (mAh/Ah).
+ #. Connect the balance connector (typically JST) to the charger if available—some chargers require this connection and will refuse to charge without it.
+ #. Connect the main power connector (typically XT60) last.
+ #. Monitor the charging process. **do not leave batteries charging unattended.**
+ #. Store batteries in a fireproof container or LiPo safety bag when not in use.
 
-.. todo::
 
-   Storage & Handling
-   ------------------
+High-Power Systems
+------------------
 
-   Note transport rules, storage voltages, and disposal steps.
+
+Battery Management Systems (BMS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A Battery Management System (BMS) is a built-in circuit that manages charging and discharging. They are used when *many* cells are connected to support large loads. A BMS typically provides charging, balancing, over-charge protection, over-discharge protection, temperature monitoring, and current limiting.
+
+Anti-Spark Connectors:
+~~~~~~~~~~~~~~~~~~~~~~
+
+Anti-spark connectors are sometimes used on high-capacity packs to prevent dangerous arcs when connecting/disconnecting batteries. These connectors use a series resistance to limit inrush current.
+
+Voltage Sag
+~~~~~~~~~~~
+
+Voltage Sag occurs when current draw causes a temporary voltage drop. This is normal under load and recovers when current draw decreases. Monitor voltage sag to ensure your battery can maintain the voltage your system requires under peak current.
+
+Ripple Voltage
+~~~~~~~~~~~~~~
+
+Ripple Voltage is high-frequency voltage oscillation superimposed on the DC voltage output. It's typically caused by switching circuits (PWM, DC-DC converters, etc.) and can interfere with sensitive electronics. Capacitors are used to filter ripple voltage.

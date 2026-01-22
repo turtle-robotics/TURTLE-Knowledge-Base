@@ -1,6 +1,9 @@
 University Resources
 ====================
 
+This is a collection of useful online and physical resources from Texas A&M in College Station.
+
+
 * Zachry Fisher Engineering Design Center (FEDC)
 
   * `FEDC Website <https://engineering.tamu.edu/fedc/>`_
@@ -12,7 +15,7 @@ University Resources
 
   * `RPS Website <https://me.tamu.edu/facilities/rapid-prototyping-studio.html>`_
   * 3D printing, laser cutting, CNC machining
-  * credits provided to students in MEEN courses (not necessarily meen-students)
+  * credits provided to students in MEEN courses (including non-MEEN students)
 
 * A&M Architecture Print Shop
 

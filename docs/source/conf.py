@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'TURTLE Knowledge Base'
-copyright = '2025, TURTLE Robotics'
+copyright = '2026, TURTLE Robotics'
 author = 'TURTLE Robotics'
 
-release = '0.1'
+release = '2.0'
 
 # -- General configuration
 
@@ -31,6 +31,13 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_context = {
+    "display_github": True,
+    "github_user": "turtle-robotics",
+    "github_repo": "TURTLE-Knowledge-Base",
+    "github_version": "main",
+    "conf_py_path": "/docs/source/",
+}
 html_theme = 'sphinx_rtd_theme'
 html_logo = "static/logo.png"
 html_favicon = "static/favicon.png"
@@ -39,9 +46,14 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
-    'style_nav_header_background': '#500000'
+    'style_nav_header_background': '#500000',\
+    'collapse_navigation': False,
+    'sticky_navigation': True,
 }
-
+html_css_files = [
+    'custom.css',
+]
+html_static_path = ['_static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
