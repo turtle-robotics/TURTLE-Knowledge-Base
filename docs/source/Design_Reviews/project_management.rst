@@ -17,8 +17,8 @@ Project Management Methodologies
    waterfall -> NASA only builds one rocket
    rapid prototyping -> generations of designs (V1.0 -> V2.0)
 
-Planning Cadence
-----------------
+Communication
+-------------
 
 .. todo::
 
@@ -27,6 +27,8 @@ Planning Cadence
 Task Tracking
 -------------
 
+
+
 .. todo::
 
    Describe how tasks are entered, prioritized, and reviewed (e.g., google sheetsm Jira, Notion, GitHub Projects).
@@ -34,8 +36,7 @@ Task Tracking
 Resource Allocation
 -------------------
 
-As the project lead, you are fundamentally accountable for the budget, lab space, and deliverables of your team. That does not mean you are expected to any, or all, of the work yourself. It is reccommended to make planning a team conversation, and to ensure that your team is in agreement with what you are working towards, and how you 
- but you should ensure that these resources are planned and tracked throughout the project lifecycle.
+As the project lead, you are fundamentally accountable for the budget, lab space, and deliverables of your team. That does not mean you are expected to any, or all, of the work yourself. It is reccommended to make planning a team conversation, and to ensure that your team is in agreement with what you are working towards, and how you but you should ensure that these resources are planned and tracked throughout the project lifecycle.
 
 .. todo::
 
