@@ -43,8 +43,9 @@ Contents
    :caption: Software
    :maxdepth: 1
 
-   Programming_and_Software/ros
    Programming_and_Software/arduinoide
+   Programming_and_Software/ros
+   Programming_and_Software/linux
 
 Other TURTLE Resources
 ----------------------

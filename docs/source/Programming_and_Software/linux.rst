@@ -1,9 +1,10 @@
 Installing Ubuntu
 =================
+Ubuntu is a Linux distrubtion based on Debian and comprised mostly from free open-source software. Some open-source framworks (such as ROS) has better support and stability on Linux.
 
-Tutorial
+Tutorials
 -----------
-- `Install Ubuntu Desktop <https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/>`_
+- `Installing Ubuntu Desktop <https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/>`_
 - `Upgrading Ubuntu Desktop <https://documentation.ubuntu.com/desktop/en/latest/how-to/upgrade-ubuntu-desktop/>`_
 - `Turning off Bitlocker (Windows) <https://documentation.ubuntu.com/desktop/en/latest/how-to/turn-off-bitlocker-in-windows/>`_
 
@@ -14,6 +15,7 @@ Tutorial
 .. note::
 
    At least 100 GB of storage is recommended for Ubuntu. If using ROS, make sure to check if you are installing the correct Ubuntu version.
+   AMD GPUs usually work better than NVIDIA GPUs on Linux operating systems. You may need to disable Secure Boot to use your GPU on Linux.
 
 Customizing Ubuntu (optional)
 -----------------------------
@@ -29,12 +31,12 @@ User Interface Customization
  - `Nordic Theme <https://github.com/EliverLara/Nordic>`_
 - Tiling Window Managers
  - `Tiling Manager <https://extensions.gnome.org/extension/7065/tiling-shell/>`_
- - `Tiling Assistant <https://extensions.gnome.org/extension/3733/tiling-assistant/>`
+ - `Tiling Assistant <https://extensions.gnome.org/extension/3733/tiling-assistant/>`_
 
 Terminal Customization
 ~~~~~~~~~~~~~~~~~~~~~~~
 - `Oh My Zsh <https://ohmyz.sh/>`_
-- `Oh My Bash <https://ohmybash.nntoan.com//>`
+- `Oh My Bash <https://ohmybash.nntoan.com/>`_
 
 Linux Compatible Text Editors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
