@@ -34,6 +34,7 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
    :maxdepth: 1
 
    Electronics_and_Power/batteries
+   Electronics_and_Power/motors
    Electronics_and_Power/cables_and_connectors
 
 .. toctree::
