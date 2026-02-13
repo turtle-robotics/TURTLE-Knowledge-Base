@@ -117,6 +117,9 @@ Bambu Studio Slicing:
 Bambu Printing
 --------------
 
+.. warning::
+   Do NOT put TPU in the AMS. AMS is the box on top of 3D printers with 4 filament spool slots.
+
 1. **Prep the printer**
 
    .. tab-set::
