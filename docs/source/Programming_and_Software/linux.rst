@@ -1,4 +1,4 @@
-Installing Ubuntu
+Ubuntu
 =================
 Ubuntu is a Linux distrubtion based on Debian and comprised mostly from free open-source software. Some open-source framworks (such as ROS) has better support and stability on Linux.
 
