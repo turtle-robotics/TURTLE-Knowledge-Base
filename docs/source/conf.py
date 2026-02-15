@@ -18,7 +18,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_design',
     "sphinx.ext.todo",
-    "sphinx.ext.autosectionlabel"
+    "sphinx.ext.autosectionlabel",
+    'sphinxcontrib.video'
 ]
 
 intersphinx_mapping = {
