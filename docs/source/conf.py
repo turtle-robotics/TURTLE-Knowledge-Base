@@ -52,6 +52,7 @@ html_theme_options = {
 }
 html_css_files = [
     'custom.css',
+    'override.css',
 ]
 html_static_path = ['_static']
 
