@@ -42,7 +42,7 @@ CFD is used wherever there is a need to predict fluid flow and heat transfer, or
         As an enabler for decarbonization, hydrogen is a valuable fuel in creating a cleaner planet. CFD allows us to model the full hydrogen value chain—from production to storage, transportation, and consumption. CFD can conduct exploratory studies to learn how hydrogen and other alternative fuels can be used in conventional engines and determine the efficacy of alternative fuel options. Key applications include PEM electrolysis, hydrogen production, transportation, storage, and consumption, and fuel cell utilization.
      - .. image:: /static/new-energy-combustion-model.png
           :width: 100%
-          :alt: A Driver model solved using the Ansys Fluent GPU solver.
+          :alt: A combustion study performed in Ansys Fluent
 
    * - **Healthcare:** 
         In the biomedical field, CFD can analyze fluid flows in the human body, such as blood flow through the circulatory system and airflow through the respiratory system. It can also be used to speed the development of medical devices and evaluate the potential efficacy of new medications. Key applications include cardiovascular flow, respiratory system, biopharmaceuticals.
