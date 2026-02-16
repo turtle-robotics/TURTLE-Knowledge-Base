@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Computational Fluid Dynamics
-============================
-=======
 Computational Fluid Dynamics (CFD)
 ============================
 
@@ -69,4 +65,3 @@ References
 ----------
 - https://www.ansys.com/simulation-topics/what-is-computational-fluid-dynamics
 
->>>>>>> c379a77 (minor updates)
