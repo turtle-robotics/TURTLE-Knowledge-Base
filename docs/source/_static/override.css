@@ -2,20 +2,22 @@
 :root {
     /* Primary Colors */
     --primary: #1B2538;
-    --primary-hover: #409ad5;
+    --primary-2: #3d4b62;
+    --primary-3: #4e6489;
+    --primary-hover: var(--primary-3);
     --primary-light: var(--primary-hover);
     --primary-dark: var(--primary);
     --primary-lighter: var(--primary-hover);
     --primary-alt: var(--primary-hover);
     --primary-focus: var(--primary);
     /* Background Colors */
-    --bg-white: #ffffff;
+    --bg-white: #f2f2f2;
     --bg-sidebar: #343131;
     --bg-sidebar-dark: #272525;
     --bg-sidebar-darker: #1f1d1d;
     --bg-disabled: #e3e3e3;
     --bg-hover: #d6d6d6;
-    --bg-dark: #222;
+    --bg-dark: #202020;
     --bg-darker: #2f2f2f;
     /* Text Colors */
     --text-black: #000;
@@ -35,7 +37,7 @@
     --color-grey: var(--text-secondary);
     --text-link: var(--primary);
     --text-link-hover: var(--primary-hover);
-    --text-link-visited: #9b59b6;
+    --text-link-visited: #74a4e6;
     --text-highlight: var(--text-primary);
     --text-accent: #f3d127;
     /* Border Colors */
@@ -84,7 +86,7 @@
     --highlight-yellow-alt: #ff9;
     --highlight-mark-yellow: #ff0;
     /* Additional Colors */
-    --text-medium-gray: var(--text-primary);
+    --text-medium-gray: #2b2b2b;
     --bg-very-light: var(--bg-white);
     --border-blue-light: var(--primary-hover);
     --border-gray-medium: var(--border-default);
