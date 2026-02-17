@@ -60,7 +60,6 @@ There are many different approaches to solving fluid flow on a computer. Before 
 
 First, the fluid flow domain (the continuous region to be calculated), is identified (typically represented by a CAD model). Then, a mesh is applied to dissect the domain into well-defined cells. Finally, the discretized version of the governing fluid equations is solved by the computer within each cell. In the context of high-performance computing (HPC), an optional step is assigning different cell groups to different computers for parallel processing. 
 
-
 References
 ----------
 - https://www.ansys.com/simulation-topics/what-is-computational-fluid-dynamics
