@@ -9,7 +9,7 @@ There are many software packages available for FEA, each with its own strengths 
 
 #. **Ansys Fluent:** Freely available at `TAMU Software Center <https://software.tamu.edu/public/AvailableSoftware.aspx>`_.
 #. **SimFlow:** Free plan available at `SimFlow <https://sim-flow.com/>`_.
-#. **OpenFOAM:** A free pen-source software package for CFD available at `OpenFOAM <https://www.openfoam.com/>`_.
+#. **OpenFOAM:** A free open-source software package for CFD available at `OpenFOAM <https://www.openfoam.com/>`_.
 #. **Autodesk CFD:** Available at `Autodesk <https://www.autodesk.com/products/cfd/overview>`_.
 
 Tutorials
