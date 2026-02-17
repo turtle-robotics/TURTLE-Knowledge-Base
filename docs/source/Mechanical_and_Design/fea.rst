@@ -17,6 +17,7 @@ Some of the most popular FEA software packages include:
 #. **Ansys Mechanical:** Freely available at `TAMU Software Center <https://software.tamu.edu/public/AvailableSoftware.aspx>`_.
 #. **SimScale:** Free plan available at `SimScale <https://www.simscale.com/>`_.
 #. **OpenFOAM:** A free open-source software package for CFD available at `OpenFOAM <https://www.openfoam.com/>`_.
+#. **Siemens NX Simulation:** Student version available at `Siemens <https://blogs.sw.siemens.com/nx-design/nx-student-edition-free-download/>`_.
 
 Tutorials
 -----------------
