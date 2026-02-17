@@ -12,13 +12,10 @@
     --primary-focus: var(--primary);
     /* Background Colors */
     --bg-white: #f2f2f2;
-    --bg-sidebar: #343131;
-    --bg-sidebar-dark: #272525;
-    --bg-sidebar-darker: #1f1d1d;
-    --bg-disabled: #e3e3e3;
-    --bg-hover: #d6d6d6;
+    --bg-sidebar: #202020;
+    --bg-sidebar-dark: #101010;
+    --bg-disabled: #cccccc;
     --bg-dark: #202020;
-    --bg-darker: #2f2f2f;
     /* Text Colors */
     --text-black: #000;
     --text-primary: #2b2b2b;
@@ -4549,7 +4546,7 @@ button[disabled] {
 }
 
 .btn-invert:hover {
-    background-color: var(--bg-darker) !important
+    background-color: var(--bg-dark) !important
 }
 
 .btn-link {
@@ -6606,7 +6603,7 @@ footer span.commit code {
     left: 0;
     width: 300px;
     color: var(--text-white);
-    background: var(--bg-sidebar-darker);
+    background: var(--bg-sidebar-dark);
     font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif;
     z-index: 400
 }
