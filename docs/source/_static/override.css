@@ -1,4 +1,3 @@
-/* ========================================   Color Variables - Read the Docs Theme   ======================================== */
 :root {
     /* Primary Colors */
     --primary: #1B2538;
@@ -92,14 +91,12 @@
     --shadow-medium: rgba(0, 0, 0, .1);
     --shadow-dark: rgba(0, 0, 0, .2);
     --overlay-white-light: hsla(0, 0%, 100%, .1);
-    --overlay-white-medium: hsla(0, 0%, 100%, .3); 
+    --overlay-white-medium: hsla(0, 0%, 100%, .3);
     --overlay-white-heavy: hsla(0, 0%, 100%, .5);
 }
 
-
 ins {
     background: var(--highlight-yellow-alt);
-    text-decoration: none
 }
 
 ins,
@@ -109,121 +106,16 @@ mark {
 
 mark {
     background: var(--highlight-yellow);
-    font-style: italic;
-    font-weight: 700
 }
 
 .chromeframe {
-    margin: .2em 0;
     background: var(--ui-gray-light);
     color: var(--text-black);
-    padding: .2em 0
 }
-
-.ir {
-    background-color: transparent
-}
-
-
-
-
-
-.btn,
-.fa:before,
-.icon:before,
-.rst-content .admonition,
-.rst-content .admonition-title:before,
-.rst-content .admonition-todo,
-.rst-content .attention,
-.rst-content .caution,
-.rst-content .code-block-caption .headerlink:before,
-.rst-content .danger,
-.rst-content .eqno .headerlink:before,
-.rst-content .error,
-.rst-content .hint,
-.rst-content .important,
-.rst-content .note,
-.rst-content .seealso,
-.rst-content .tip,
-.rst-content .warning,
-.rst-content code.download span:first-child:before,
-.rst-content dl dt .headerlink:before,
-.rst-content h1 .headerlink:before,
-.rst-content h2 .headerlink:before,
-.rst-content h3 .headerlink:before,
-.rst-content h4 .headerlink:before,
-.rst-content h5 .headerlink:before,
-.rst-content h6 .headerlink:before,
-.rst-content p.caption .headerlink:before,
-.rst-content p .headerlink:before,
-.rst-content table>caption .headerlink:before,
-.rst-content tt.download span:first-child:before,
-.wy-alert,
-.wy-dropdown .caret:before,
-.wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,
-.wy-inline-validate.wy-inline-validate-info .wy-input-context:before,
-.wy-inline-validate.wy-inline-validate-success .wy-input-context:before,
-.wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,
-.wy-menu-vertical li.current>a button.toctree-expand:before,
-.wy-menu-vertical li.on a button.toctree-expand:before,
-.wy-menu-vertical li button.toctree-expand:before,
-input[type=color],
-input[type=date],
-input[type=datetime-local],
-input[type=datetime],
-input[type=email],
-input[type=month],
-input[type=number],
-input[type=password],
-input[type=search],
-input[type=tel],
-input[type=text],
-input[type=time],
-input[type=url],
-input[type=week],
-select,
-textarea {
-    -webkit-font-smoothing: antialiased
-}
-
-
-.fa,
-.icon,
-.rst-content .admonition-title,
-.rst-content .code-block-caption .headerlink,
-.rst-content .eqno .headerlink,
-.rst-content code.download span:first-child,
-.rst-content dl dt .headerlink,
-.rst-content h1 .headerlink,
-.rst-content h2 .headerlink,
-.rst-content h3 .headerlink,
-.rst-content h4 .headerlink,
-.rst-content h5 .headerlink,
-.rst-content h6 .headerlink,
-.rst-content p.caption .headerlink,
-.rst-content p .headerlink,
-.rst-content table>caption .headerlink,
-.rst-content tt.download span:first-child,
-.wy-menu-vertical li.current>a button.toctree-expand,
-.wy-menu-vertical li.on a button.toctree-expand,
-.wy-menu-vertical li button.toctree-expand {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-
 
 .fa-border {
-    padding: .2em .25em .15em;
-    border: .08em solid var(--border-input-light);
-    border-radius: .1em
+    border: .08em solid var(--border-input-light)
 }
-
-
 
 .fa-inverse {
     color: var(--bg-white)
@@ -242,20 +134,13 @@ textarea {
 .rst-content .tip,
 .rst-content .warning,
 .wy-alert {
-    padding: 12px;
-    line-height: 24px;
-    margin-bottom: 24px;
     background: var(--bg-white)
 }
 
 .rst-content .admonition-title,
 .wy-alert-title {
-    font-weight: 700;
-    display: block;
     color: var(--bg-white);
-    background: var(--alert-info-title);
-    padding: 6px 12px;
-    margin: -12px -12px 12px
+    background: var(--alert-info-title)
 }
 
 .rst-content .danger,
@@ -642,10 +527,7 @@ textarea {
 }
 
 .wy-dropdown-menu>dd.call-to-action {
-    background: var(--bg-disabled);
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 80%
+    background: var(--bg-disabled)
 }
 
 .wy-dropdown-menu>dd.call-to-action:hover {
@@ -670,9 +552,7 @@ textarea {
 }
 
 label {
-    margin: 0 0 .3125em;
-    color: var(--text-dark);
-    font-size: 90%
+    color: var(--text-dark)
 }
 
 .wy-control-group.wy-control-group-required>label:after {
@@ -681,17 +561,11 @@ label {
 }
 
 .wy-form-message-inline {
-    padding-left: .3em;
-    color: var(--text-grey);
-    font-size: 90%
+    color: var(--text-grey)
 }
 
 .wy-form-message {
-    display: block;
-    color: var(--text-light-gray);
-    font-size: 70%;
-    margin-top: .3125em;
-    font-style: italic
+    color: var(--text-light-gray)
 }
 
 input[type=color],
@@ -708,17 +582,8 @@ input[type=text],
 input[type=time],
 input[type=url],
 input[type=week] {
-    -webkit-appearance: none;
-    padding: 6px;
-    display: inline-block;
     border: 1px solid var(--ui-gray-light);
-    font-size: 80%;
-    font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif;
     box-shadow: inset 0 1px 3px var(--ui-shadow);
-    border-radius: 0;
-    -webkit-transition: border .3s linear;
-    -moz-transition: border .3s linear;
-    transition: border .3s linear
 }
 
 input[type=color]:focus,
@@ -735,8 +600,6 @@ input[type=text]:focus,
 input[type=time]:focus,
 input[type=url]:focus,
 input[type=week]:focus {
-    outline: 0;
-    outline: thin dotted\9;
     border-color: var(--text-dark)
 }
 
@@ -790,14 +653,8 @@ input[type=radio]:focus:invalid:focus {
 
 select,
 textarea {
-    padding: .5em .625em;
-    display: inline-block;
     border: 1px solid var(--ui-gray-light);
-    font-size: 80%;
     box-shadow: inset 0 1px 3px var(--ui-shadow);
-    -webkit-transition: border .3s linear;
-    -moz-transition: border .3s linear;
-    transition: border .3s linear
 }
 
 select {
@@ -810,78 +667,31 @@ select[disabled],
 select[readonly],
 textarea[disabled],
 textarea[readonly] {
-    cursor: not-allowed;
     background-color: var(--bg-white)
 }
 
 .wy-checkbox,
 .wy-radio {
-    margin: 6px 0;
     color: var(--text-primary);
-    display: block
 }
 
 .wy-input-prefix .wy-input-context,
 .wy-input-suffix .wy-input-context {
-    line-height: 27px;
-    padding: 0 8px;
-    display: inline-block;
-    font-size: 80%;
     background-color: var(--bg-white);
     border: 1px solid var(--ui-gray-light);
     color: var(--text-light-gray)
 }
 
-.wy-input-suffix .wy-input-context {
-    border-left: 0
-}
-
-.wy-input-prefix .wy-input-context {
-    border-right: 0
-}
-
-.wy-switch {
-    position: relative;
-    display: block;
-    height: 24px;
-    margin-top: 12px;
-    cursor: pointer
-}
-
 .wy-switch:before {
-    left: 0;
-    top: 0;
-    width: 36px;
-    height: 12px;
     background: var(--ui-gray-light)
 }
 
-.wy-switch:after,
-.wy-switch:before {
-    position: absolute;
-    content: "";
-    display: block;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
-}
-
 .wy-switch:after {
-    width: 18px;
-    height: 18px;
     background: var(--text-light-gray);
-    left: -3px;
-    top: -3px
 }
 
 .wy-switch span {
-    position: absolute;
-    left: 48px;
-    display: block;
-    font-size: 12px;
     color: var(--ui-gray-light);
-    line-height: 1
 }
 
 .wy-switch.active:before {
@@ -889,13 +699,7 @@ textarea[readonly] {
 }
 
 .wy-switch.active:after {
-    left: 24px;
     background: var(--color-success)
-}
-
-.wy-switch.disabled {
-    cursor: not-allowed;
-    opacity: .8
 }
 
 .wy-control-group.wy-control-group-error .wy-form-message,
@@ -921,16 +725,6 @@ textarea[readonly] {
     border: 1px solid var(--color-danger)
 }
 
-.wy-inline-validate {
-    white-space: nowrap
-}
-
-.wy-inline-validate .wy-input-context {
-    padding: .5em .625em;
-    display: inline-block;
-    font-size: 80%
-}
-
 .wy-inline-validate.wy-inline-validate-success .wy-input-context {
     color: var(--color-success)
 }
@@ -945,155 +739,6 @@ textarea[readonly] {
 
 .wy-inline-validate.wy-inline-validate-info .wy-input-context {
     color: var(--primary)
-}
-
-.rotate-90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg)
-}
-
-.rotate-180 {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg)
-}
-
-.rotate-270 {
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg)
-}
-
-.mirror {
-    -webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    transform: scaleX(-1)
-}
-
-.mirror.rotate-90 {
-    -webkit-transform: scaleX(-1) rotate(90deg);
-    -moz-transform: scaleX(-1) rotate(90deg);
-    -ms-transform: scaleX(-1) rotate(90deg);
-    -o-transform: scaleX(-1) rotate(90deg);
-    transform: scaleX(-1) rotate(90deg)
-}
-
-.mirror.rotate-180 {
-    -webkit-transform: scaleX(-1) rotate(180deg);
-    -moz-transform: scaleX(-1) rotate(180deg);
-    -ms-transform: scaleX(-1) rotate(180deg);
-    -o-transform: scaleX(-1) rotate(180deg);
-    transform: scaleX(-1) rotate(180deg)
-}
-
-.mirror.rotate-270 {
-    -webkit-transform: scaleX(-1) rotate(270deg);
-    -moz-transform: scaleX(-1) rotate(270deg);
-    -ms-transform: scaleX(-1) rotate(270deg);
-    -o-transform: scaleX(-1) rotate(270deg);
-    transform: scaleX(-1) rotate(270deg)
-}
-
-@media only screen and (max-width:480px) {
-    .wy-form button[type=submit] {
-        margin: .7em 0 0
-    }
-
-    .wy-form input[type=color],
-    .wy-form input[type=date],
-    .wy-form input[type=datetime-local],
-    .wy-form input[type=datetime],
-    .wy-form input[type=email],
-    .wy-form input[type=month],
-    .wy-form input[type=number],
-    .wy-form input[type=password],
-    .wy-form input[type=search],
-    .wy-form input[type=tel],
-    .wy-form input[type=text],
-    .wy-form input[type=time],
-    .wy-form input[type=url],
-    .wy-form input[type=week],
-    .wy-form label {
-        margin-bottom: .3em;
-        display: block
-    }
-
-    .wy-form input[type=color],
-    .wy-form input[type=date],
-    .wy-form input[type=datetime-local],
-    .wy-form input[type=datetime],
-    .wy-form input[type=email],
-    .wy-form input[type=month],
-    .wy-form input[type=number],
-    .wy-form input[type=password],
-    .wy-form input[type=search],
-    .wy-form input[type=tel],
-    .wy-form input[type=time],
-    .wy-form input[type=url],
-    .wy-form input[type=week] {
-        margin-bottom: 0
-    }
-
-    .wy-form-aligned .wy-control-group label {
-        margin-bottom: .3em;
-        text-align: left;
-        display: block;
-        width: 100%
-    }
-
-    .wy-form-aligned .wy-control {
-        margin: 1.5em 0 0
-    }
-
-    .wy-form-message,
-    .wy-form-message-inline,
-    .wy-form .wy-help-inline {
-        display: block;
-        font-size: 80%;
-        padding: 6px 0
-    }
-}
-
-@media screen and (max-width:768px) {
-    .tablet-hide {
-        display: none
-    }
-}
-
-@media screen and (max-width:480px) {
-    .mobile-hide {
-        display: none
-    }
-}
-
-.float-left {
-    float: left
-}
-
-.float-right {
-    float: right
-}
-
-.full-width {
-    width: 100%
-}
-
-.rst-content table.docutils,
-.rst-content table.field-list,
-.wy-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    empty-cells: show;
-    margin-bottom: 24px
 }
 
 .rst-content table.docutils caption,
@@ -1285,7 +930,7 @@ code {
 
 .wy-menu-vertical li.current>a:hover button.toctree-expand,
 .wy-menu-vertical li.on a:hover button.toctree-expand {
-    color:var(--color-grey)
+    color: var(--color-grey)
 }
 
 .wy-menu-vertical li.current>a button.toctree-expand,
@@ -1319,7 +964,7 @@ code {
 .wy-menu-vertical li.toctree-l8 a:hover button.toctree-expand,
 .wy-menu-vertical li.toctree-l9 a:hover button.toctree-expand,
 .wy-menu-vertical li.toctree-l10 a:hover button.toctree-expand {
-    color:var(--color-grey)
+    color: var(--color-grey)
 }
 
 .wy-menu-vertical li.toctree-l2.current>a,
@@ -1447,7 +1092,7 @@ footer {
 .rst-content footer span.commit tt,
 footer span.commit .rst-content tt,
 footer span.commit code {
-    color:var(--color-grey)
+    color: var(--color-grey)
 }
 
 #search-results .search li {
@@ -1474,7 +1119,6 @@ footer span.commit code {
     }
 
     .wy-nav-content {
-        margin: 0;
         background: var(--bg-white)
     }
 }
@@ -1580,12 +1224,10 @@ footer span.commit code {
     color: var(--text-primary)
 }
 
-
 .rst-content .sidebar {
     background: var(--bg-white);
     border: 1px solid var(--border-default)
 }
-
 
 .rst-content .sidebar .sidebar-title {
     background: var(--border-default);
@@ -1623,7 +1265,6 @@ html.writer-html5 .rst-content dl.footnote tt {
     color: var(--color-grey)
 }
 
-
 .rst-content table.docutils th {
     border-color: var(--border-default)
 }
@@ -1649,7 +1290,6 @@ a .rst-content tt {
     color: var(--text-primary);
 }
 
-
 .rst-content a code,
 .rst-content a tt {
     color: var(--primary)
@@ -1674,8 +1314,6 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
 
 html.writer-html4 .rst-content dl:not(.docutils) dl:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple)>dt,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) dl:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple)>dt {
-    margin-bottom: 6px;
-    border: none;
     border-left: 3px solid var(--ui-gray-light);
     background: var(--bg-very-light);
     color: var(--text-medium-gray)
@@ -1687,15 +1325,10 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
     font-size: 100% !important
 }
 
-
 html.writer-html4 .rst-content dl:not(.docutils) .optional,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) .optional {
-    display: inline-block;
-    padding: 0 4px;
-    color: var(--text-black);
-    font-weight: 700
+    color: var(--text-black)
 }
-
 
 html.writer-html4 .rst-content dl:not(.docutils) .descclassname,
 html.writer-html4 .rst-content dl:not(.docutils) .descname,
@@ -1703,19 +1336,13 @@ html.writer-html4 .rst-content dl:not(.docutils) .sig-name,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) .descclassname,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) .descname,
 html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) .sig-name {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, Courier, monospace;
     color: var(--text-black)
 }
 
 .rst-content .viewcode-back,
 .rst-content .viewcode-link {
-    display: inline-block;
     color: var(--color-success);
-    font-size: 80%;
-    padding-left: 24px
 }
-
-
 
 .rst-content :not(dl.option-list)>:not(dt):not(kbd):not(.kbd)>.kbd,
 .rst-content :not(dl.option-list)>:not(dt):not(kbd):not(.kbd)>kbd {
@@ -1725,8 +1352,6 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
 
 }
 
-
 span[id*=MathJax-Span] {
     color: var(--text-primary)
 }
-
