@@ -28,6 +28,8 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
 
    Mechanical_and_Design/solidworks
    Mechanical_and_Design/3d_printers
+   Mechanical_and_Design/fea
+   Mechanical_and_Design/cfd
 
 .. toctree::
    :caption: Electical
@@ -41,8 +43,10 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
    :caption: Software
    :maxdepth: 1
 
-   Programming_and_Software/ros
    Programming_and_Software/arduinoide
+   Programming_and_Software/raspi
+   Programming_and_Software/ros
+   Programming_and_Software/linux
 
 Other TURTLE Resources
 ----------------------
