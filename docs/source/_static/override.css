@@ -517,7 +517,7 @@ body {
 
 .wy-text-warning {
     color: var(--color-warning) !important
-}
+} 
 
 a.wy-text-warning:hover {
     color: var(--color-warning-light) !important
