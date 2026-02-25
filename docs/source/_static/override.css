@@ -161,14 +161,6 @@ mark {
     background: var(--alert-info-bg)
 }
 
-/* Final enforcement: ensure note body retains its tint even if other rules collide */
-.rst-content .admonition.note.wy-alert.wy-alert-info,
-.rst-content .admonition.note,
-.wy-alert.wy-alert-info {
-    background: #ffd2f7 !important;          
-    border: none !important;
-}
-
 /* Strip any theme border/shadow that may still leak through on notes */
 .rst-content div.admonition.note,
 .rst-content .note.admonition,
