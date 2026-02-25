@@ -3,9 +3,6 @@ Welcome to the TURTLE Robotics Knowledge Base!
 
 This knowledge base is designed to provide a supplimentary resource for TURTLE Robotics members and anyone interested in robotics. It contains documentation on the common tools, software, and hardware used in our projects.
 
-.. note::
-   
-   This wiki is under active development.
 
 .. toctree::
    :caption: General
@@ -43,7 +40,6 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
    :caption: Software
    :maxdepth: 1
 
-   Programming_and_Software/arduinoide
    Programming_and_Software/raspi
    Programming_and_Software/ros
    Programming_and_Software/linux
@@ -55,3 +51,8 @@ Other TURTLE Resources
 *  `Lab Safety Rules <https://www.turtlerobotics.org/pdfs/LAB_SAFETY_RULES.pdf>`_
 *  `TURTLE Constitution <https://www.turtlerobotics.org/pdfs/TURTLE_Constitution.pdf>`_
 *  `Officer Roles <https://www.turtlerobotics.org/pdfs/Officer_Roles.pdf>`_
+
+
+.. note::
+   
+   This wiki is under active development. Add your suggestions as `Github Issue <https://github.com/turtle-robotics/TURTLE-Knowledge-Base/issues>`_!
