@@ -28,7 +28,7 @@ Poster Archive
     * - BLNC
       - `Link <../Posters/Fall-2025/BLNC-2025-Fall.pdf>`__
       - `Link <../Posters/Spring-2025/BLNC-2025-Spring.pdf>`__
-      - `Link <../Posters/Fall-2024/BLNC-2024-Fall.pdf>`__
+      - \
     * - CMBT
       - `Link <../Posters/Fall-2025/CMBT-2025-Fall.pdf>`__
       - `Link <../Posters/Spring-2025/CMBT-2025-Spring.pdf>`__
@@ -53,10 +53,6 @@ Poster Archive
       - `Link <../Posters/Fall-2025/GERM-2025-Fall.pdf>`__
       - `Link <../Posters/Spring-2025/GERM-2025-Spring.pdf>`__
       - `Link <../Posters/Fall-2024/GERM-2024-Fall.pdf>`__
-    * - HATCH
-      - `Link <../Posters/Fall-2025/HATCH-2025-Fall.pdf>`__
-      - `Link <../Posters/Spring-2025/HATCH-2025-Spring.pdf>`__
-      - `Link <../Posters/Fall-2024/HATCH-2024-Fall.pdf>`__
     * - LARM
       - `Link <../Posters/Fall-2025/LARM-2025-Fall.pdf>`__
       - `Link <../Posters/Spring-2025/LARM-2025-Spring.pdf>`__
@@ -97,3 +93,13 @@ Poster Archive
       - `Link <../Posters/Fall-2025/VIRT-2025-Fall.pdf>`__
       - `Link <../Posters/Spring-2025/VIRT-2025-Spring.pdf>`__
       - `Link <../Posters/Fall-2024/VIRT-2024-Fall.pdf>`__
+
+.. note::
+    This is an archive of old posters and not actively maintained. Some posters may be missing or outdated. For information on active projects, please refer to the `TURTLE Robotics Projects Page <https://www.turtlerobotics.org/projects>`__.
+
+.. todo::
+    Kalen asked to remove hatchling, so I'm leaving it here
+    * - HATCH
+      - `Link <../Posters/Fall-2025/HATCH-2025-Fall.pdf>`__
+      - `Link <../Posters/Spring-2025/HATCH-2025-Spring.pdf>`__
+      - `Link <../Posters/Fall-2024/HATCH-2024-Fall.pdf>`__
