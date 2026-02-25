@@ -17,6 +17,7 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
 
    Design_Reviews/phases_of_development
    Design_Reviews/design_reviews
+   Design_Reviews/poster_archive
 
 .. toctree::
    :caption: Mechanical
