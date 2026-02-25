@@ -56,6 +56,8 @@ html_css_files = [
     'custom.css',
 ]
 html_static_path = ['_static']
+# Copy raw assets (PDF posters, images) without renaming so links to ../static/... work.
+html_extra_path = ['static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
