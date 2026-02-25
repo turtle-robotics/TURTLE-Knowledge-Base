@@ -52,6 +52,7 @@ html_theme_options = {
     'sticky_navigation': True,
 }
 html_css_files = [
+    'override.css',
     'custom.css',
 ]
 html_static_path = ['_static']

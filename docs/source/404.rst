@@ -1,0 +1,13 @@
+:orphan:
+
+.. _404:
+
+Page Not Found
+==============
+
+Sorry, we couldn't find that page.
+
+- Return to the :doc:`home page <index>`
+- Use the search box in the sidebar to locate what you need
+- If you think this is a mistake, please open an issue on GitHub
+
