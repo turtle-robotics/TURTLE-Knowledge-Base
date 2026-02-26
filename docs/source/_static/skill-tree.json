@@ -266,6 +266,17 @@
     },
     {
       "data": {
+        "id": "gdt",
+        "label": "GD&T",
+        "track": "mechanical",
+        "level": 3,
+        "description": "Geometric Dimensioning & Tolerancing: datums, form/orientation/location controls, tolerance stacks, and reading engineering drawings to manufacturing standard.",
+        "url": "https://youtu.be/zjlJ9gA5W1Q?si=ACfQ3MBw1XcGKFVl",
+        "external": true
+      }
+    },
+    {
+      "data": {
         "id": "3d_printing",
         "label": "3D Printing",
         "track": "mechanical",
@@ -1022,6 +1033,27 @@
         "id": "e86",
         "source": "docker",
         "target": "software_eng"
+      }
+    },
+    {
+      "data": {
+        "id": "e87",
+        "source": "solidworks",
+        "target": "gdt"
+      }
+    },
+    {
+      "data": {
+        "id": "e88",
+        "source": "materials",
+        "target": "gdt"
+      }
+    },
+    {
+      "data": {
+        "id": "e89",
+        "source": "gdt",
+        "target": "fea"
       }
     }
   ]
