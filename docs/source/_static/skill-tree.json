@@ -450,6 +450,17 @@
         "url": "https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python",
         "external": true
       }
+    },
+    {
+      "data": {
+        "id": "docker",
+        "label": "Docker",
+        "track": "software",
+        "level": 2,
+        "description": "Containerisation with Docker: images, containers, Dockerfiles, and Compose — enabling reproducible, portable robotics software environments.",
+        "url": "https://www.geeksforgeeks.org/blogs/containerization-using-docker/",
+        "external": true
+      }
     }
   ],
   "edges": [
@@ -983,6 +994,34 @@
         "id": "e82",
         "source": "project_management",
         "target": "systems_arch"
+      }
+    },
+    {
+      "data": {
+        "id": "e83",
+        "source": "linux",
+        "target": "docker"
+      }
+    },
+    {
+      "data": {
+        "id": "e84",
+        "source": "git",
+        "target": "docker"
+      }
+    },
+    {
+      "data": {
+        "id": "e85",
+        "source": "ros",
+        "target": "docker"
+      }
+    },
+    {
+      "data": {
+        "id": "e86",
+        "source": "docker",
+        "target": "software_eng"
       }
     }
   ]
