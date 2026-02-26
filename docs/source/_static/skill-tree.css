@@ -1,0 +1,187 @@
+/* ─────────────────────────────────────────────────────────────
+   Skill Tree — page-level styles
+   Loaded globally via conf.py html_css_files; only activates
+   when #cy is present on the page.
+   ───────────────────────────────────────────────────────────── */
+
+/* ── Outer wrapper ─────────────────────────────────────────── */
+.skill-tree-page {
+  position:      relative;
+  margin:        1.25rem 0 2rem;
+  border:        1px solid #d8d8d8;
+  border-radius: 6px;
+  overflow:      hidden;
+  background:    #f6f7f9;
+  font-family:   inherit;
+}
+
+/* ── Toolbar ───────────────────────────────────────────────── */
+.skill-tree-toolbar {
+  display:       flex;
+  align-items:   center;
+  gap:           0.4rem;
+  padding:       0.45rem 0.75rem;
+  background:    #1B2538;
+  border-bottom: 1px solid #2e3d55;
+  user-select:   none;
+}
+
+.st-btn {
+  padding:          0.22rem 0.65rem;
+  font-size:        0.82rem;
+  font-weight:      600;
+  font-family:      inherit;
+  border:           1px solid rgba(255, 255, 255, 0.3);
+  border-radius:    4px;
+  background:       rgba(255, 255, 255, 0.1);
+  color:            #ffffff;
+  cursor:           pointer;
+  line-height:      1.5;
+  transition:       background 0.15s;
+  white-space:      nowrap;
+}
+
+.st-btn:hover  { background: rgba(255, 255, 255, 0.22); }
+.st-btn:active { background: rgba(255, 255, 255, 0.35); }
+
+.st-hint {
+  margin-left: auto;
+  font-size:   0.76rem;
+  color:       rgba(255, 255, 255, 0.45);
+  font-style:  italic;
+  white-space: nowrap;
+}
+
+/* ── Cytoscape canvas ──────────────────────────────────────── */
+#cy {
+  width:      100%;
+  height:     720px;
+  display:    block;
+  background: #f6f7f9;
+  cursor:     grab;
+}
+
+#cy:active { cursor: grabbing; }
+
+/* ── Tooltip ───────────────────────────────────────────────── */
+.cy-tooltip {
+  position:      absolute;
+  display:       none;
+  pointer-events: none;
+  z-index:       200;
+  width:         230px;
+  background:    #1B2538;
+  color:         #f2f2f2;
+  border-radius: 6px;
+  padding:       0.65rem 0.85rem;
+  box-shadow:    0 4px 20px rgba(0, 0, 0, 0.3);
+  font-size:     0.82rem;
+  line-height:   1.48;
+}
+
+.tt-title {
+  font-weight:   700;
+  font-size:     0.9rem;
+  margin-bottom: 0.3rem;
+  color:         #F3D127;
+}
+
+.tt-body {
+  color:         rgba(255, 255, 255, 0.87);
+  margin-bottom: 0.45rem;
+}
+
+.tt-cta {
+  font-size:  0.75rem;
+  color:      rgba(255, 255, 255, 0.48);
+  font-style: italic;
+}
+
+/* ── Footer / legend ───────────────────────────────────────── */
+.skill-tree-footer {
+  display:       flex;
+  align-items:   center;
+  flex-wrap:     wrap;
+  gap:           0.4rem 0.8rem;
+  padding:       0.55rem 0.9rem;
+  background:    #ffffff;
+  border-top:    1px solid #e0e0e0;
+  user-select:   none;
+}
+
+.st-section-label {
+  font-size:      0.7rem;
+  font-weight:    700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color:          #999999;
+  white-space:    nowrap;
+}
+
+.st-legend-group {
+  display:     flex;
+  align-items: center;
+  flex-wrap:   wrap;
+  gap:         0.25rem 0.75rem;
+}
+
+.st-legend-item {
+  display:     flex;
+  align-items: center;
+  gap:         0.35rem;
+  font-size:   0.79rem;
+  color:       #444444;
+  white-space: nowrap;
+}
+
+/* Coloured square for track legend */
+.st-dot {
+  display:      inline-block;
+  width:        11px;
+  height:       11px;
+  border-radius: 3px;
+  flex-shrink:  0;
+}
+
+/* Numbered circle for level legend */
+.st-lvl-chip {
+  display:         inline-flex;
+  align-items:     center;
+  justify-content: center;
+  width:           18px;
+  height:          18px;
+  border-radius:   50%;
+  font-size:       0.68rem;
+  font-weight:     700;
+  color:           #ffffff;
+  flex-shrink:     0;
+}
+
+.st-lvl-5 { background: #5c8fa6; }   /* Foundation  — steel blue   */
+.st-lvl-4 { background: #3d9e6e; }   /* Beginner    — sea green    */
+.st-lvl-3 { background: #c9a227; }   /* Intermediate — goldenrod   */
+.st-lvl-2 { background: #c96b23; }   /* Advanced    — deep orange  */
+.st-lvl-1 { background: #b03030; }   /* Mastery     — dark red     */
+
+/* Level legend items are clickable filters */
+.st-level-filter {
+  cursor:        pointer;
+  border-radius: 4px;
+  padding:       2px 6px 2px 2px;
+  transition:    background 0.15s, outline 0.15s;
+}
+
+.st-level-filter:hover  { background: rgba(0,0,0,0.07); }
+
+.st-level-filter.active {
+  background:     rgba(243,209,39,0.18);
+  outline:        2px solid #F3D127;
+  outline-offset: 1px;
+}
+
+/* ── Responsive: collapse hint text on small screens ───────── */
+@media (max-width: 600px) {
+  .st-hint      { display: none; }
+  #cy           { height: 580px; }
+  .cy-tooltip   { width: 185px; font-size: 0.78rem; }
+}

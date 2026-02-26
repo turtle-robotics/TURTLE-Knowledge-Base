@@ -1,0 +1,795 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "linux",
+        "label": "Linux / CLI",
+        "track": "software",
+        "level": 5,
+        "description": "Navigating the filesystem, installing packages, running scripts, and configuring a Linux environment.",
+        "url": "Programming_and_Software/linux.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "oop",
+        "label": "OOP",
+        "track": "software",
+        "level": 5,
+        "description": "Object-oriented programming in Python: classes, inheritance, polymorphism, and fundamental software design patterns.",
+        "url": "https://docs.python.org/3/tutorial/",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "eng_math",
+        "label": "Eng. Math",
+        "track": "theory",
+        "level": 5,
+        "description": "Calculus, linear algebra, and differential equations \u2014 the mathematical foundation underlying all engineering disciplines.",
+        "url": "https://www.khanacademy.org/math",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "documentation",
+        "label": "Documentation",
+        "track": "systems",
+        "level": 5,
+        "description": "Writing project proposals, PDR/CDR design review documents, and maintaining living technical design documents.",
+        "url": "Design_Reviews/poster_archive.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "breadboard",
+        "label": "Breadboards",
+        "track": "electronics",
+        "level": 5,
+        "description": "Prototyping circuits on a solderless breadboard: resistors, LEDs, sensors, and basic analog/digital signals.",
+        "url": "https://learn.adafruit.com/breadboards-for-beginners",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "arduino",
+        "label": "Arduino",
+        "track": "software",
+        "level": 4,
+        "description": "Writing firmware in C/C++ for Arduino and ESP32 microcontrollers: GPIO, timers, I2C, SPI, and UART.",
+        "url": "Programming_and_Software/arduinoide.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "data_structures",
+        "label": "Data Structures",
+        "track": "software",
+        "level": 4,
+        "description": "Arrays, linked lists, trees, graphs, and sorting algorithms \u2014 tools for writing efficient, scalable software.",
+        "url": "https://cs50.harvard.edu/x/",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "git",
+        "label": "Git & VCS",
+        "track": "software",
+        "level": 4,
+        "description": "Version control with Git: commits, branches, merging, and collaborating on GitHub.",
+        "url": "https://git-scm.com/book/en/v2",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "raspi",
+        "label": "Raspberry Pi",
+        "track": "software",
+        "level": 3,
+        "description": "Single-board Linux computers for onboard processing, camera vision, and peripheral interfacing.",
+        "url": "Programming_and_Software/raspi.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "systems_arch",
+        "label": "Systems Architecture",
+        "track": "systems",
+        "level": 1,
+        "description": "Designing and documenting system architectures and system interface.",
+        "url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "solidworks",
+        "label": "SolidWorks",
+        "track": "mechanical",
+        "level": 4,
+        "description": "Parametric solid modelling, assemblies, and engineering drawings in SolidWorks (TAMU licensed).",
+        "url": "Mechanical_and_Design/solidworks.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "batteries",
+        "label": "Batteries",
+        "track": "electronics",
+        "level": 4,
+        "description": "LiPo and Li-ion cell chemistry, SxP pack configurations, capacity sizing, and safe charging procedures.",
+        "url": "Electronics_and_Power/batteries.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "cables",
+        "label": "Connectors",
+        "track": "electronics",
+        "level": 4,
+        "description": "Power connectors (XT60, Anderson) and communication protocols (UART, I2C, CAN, PWM) used in robotics systems.",
+        "url": "Electronics_and_Power/cables_and_connectors.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "motors",
+        "label": "Motors",
+        "track": "electronics",
+        "level": 4,
+        "description": "Brushed DC, BLDC, and stepper motor physics; rotary encoders, back-EMF, and torque-speed relationships.",
+        "url": "Electronics_and_Power/motors.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "ros",
+        "label": "ROS 2",
+        "track": "software",
+        "level": 3,
+        "description": "Robot Operating System 2: nodes, topics, services, URDF robot modelling, RViz visualisation, and Gazebo simulation.",
+        "url": "Programming_and_Software/ros.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "control_theory",
+        "label": "Control Theory",
+        "track": "theory",
+        "level": 3,
+        "description": "PID controllers, state-space representation, and frequency-domain analysis for closed-loop control systems.",
+        "url": "https://www.youtube.com/@BrianBDouglas",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "materials",
+        "label": "Materials",
+        "track": "mechanical",
+        "level": 4,
+        "description": "Metals, polymers, and composites: mechanical properties, selection criteria, and fabrication constraints.",
+        "url": "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/TEKNOLOGI%20REKAYASA%20MATERIAL%20PERTAHANAN/Askeland-Essentials-of-Materials-Science-and-Engineering-1.pdf",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "escs",
+        "label": "ESCs",
+        "track": "electronics",
+        "level": 3,
+        "description": "Electronic speed controllers: driving BLDC motors via three-phase PWM, sensorless vs. sensored feedback.",
+        "url": "Electronics_and_Power/escs.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "pcb_design",
+        "label": "PCB Design",
+        "track": "electronics",
+        "level": 3,
+        "description": "Schematic capture, PCB layout, design rule checks, and board fabrication with KiCad.",
+        "url": "https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "opencv",
+        "label": "Computer Vision",
+        "track": "software",
+        "level": 3,
+        "description": "OpenCV library usage for image processing, feature detection, and object recognition in robotics applications.",
+        "url": "https://docs.opencv.org/4.x/index.html",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "complex",
+        "label": "Complex Analysis",
+        "track": "theory",
+        "level": 2,
+        "description": "Complex numbers, analytic functions, and contour integration in the context of signal processing and control systems.",
+        "url": "https://complex-analysis.com/content/table_of_contents.html",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "software_eng",
+        "label": "Software Eng.",
+        "track": "software",
+        "level": 1,
+        "description": "SOLID principles, design patterns, testing, CI/CD pipelines, and large-scale software architecture.",
+        "url": "https://refactoring.guru/design-patterns",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "kinematics",
+        "label": "Dynamics",
+        "track": "theory",
+        "level": 4,
+        "description": "Forward and inverse kinematics for robot arms and mobile platforms; singularity detection and mitigation.",
+        "url": "Theory_and_Concepts/kinematics.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "3d_printing",
+        "label": "3D Printing",
+        "track": "mechanical",
+        "level": 3,
+        "description": "FDM slicing with Bambu Studio, material and parameter selection, and support strategies for rapid prototyping.",
+        "url": "Mechanical_and_Design/3d_printers.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "fea",
+        "label": "FEA",
+        "track": "mechanical",
+        "level": 2,
+        "description": "Finite element stress/strain simulation using SolidWorks Simulation, ANSYS Mechanical, or SimScale.",
+        "url": "Mechanical_and_Design/fea.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "fpga",
+        "label": "FPGA",
+        "track": "electronics",
+        "level": 2,
+        "description": "FPGA programming with VHDL/Verilog for real-time motor control, sensor fusion, and custom digital logic.",
+        "url": "https://www.nandland.com/",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "path_planning",
+        "label": "Path Planning",
+        "track": "theory",
+        "level": 1,
+        "description": "Graph search (A*, D*), sampling-based (RRT, PRM), and optimisation-based motion planning algorithms.",
+        "url": "https://msl.cs.uiuc.edu/planning/bookbig.pdf",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "cfd",
+        "label": "CFD",
+        "track": "mechanical",
+        "level": 1,
+        "description": "Computational fluid dynamics: meshing, flow simulation, and post-processing with ANSYS Fluent or OpenFOAM.",
+        "url": "Mechanical_and_Design/cfd.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "dev_phases",
+        "label": "Dev Phases",
+        "track": "systems",
+        "level": 4,
+        "description": "TURTLE project phases — Research, Prototyping, and Production — with milestone criteria and per-phase budget limits.",
+        "url": "Design_Reviews/phases_of_development.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "design_reviews",
+        "label": "Design Reviews",
+        "track": "systems",
+        "level": 3,
+        "description": "PDR and CDR design reviews: deliverable requirements, presentation format, and working with the Design Review Committee.",
+        "url": "Design_Reviews/design_reviews.html",
+        "external": false
+      }
+    },
+    {
+      "data": {
+        "id": "project_management",
+        "label": "Project Management",
+        "track": "systems",
+        "level": 2,
+        "description": "Project planning, scheduling, resource allocation, and risk management for engineering projects.",
+        "url": "https://catalog.tamu.edu/undergraduate/engineering/multidisciplinary/engineering-project-management-minor/#programrequirementstext",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "linear_algebra",
+        "label": "Linear Algebra",
+        "track": "theory",
+        "level": 5,
+        "description": "Vectors, matrices, eigenvalues, and transformations — the geometric intuition behind robotics math, visualised by 3Blue1Brown's Essence of Linear Algebra series.",
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "signal_processing",
+        "label": "Signal Processing",
+        "track": "electronics",
+        "level": 3,
+        "description": "Sampling, Fourier transforms, filters, and frequency-domain analysis — fundamental tools for sensor data, communications, and real-time control. IEEE SPS Signal Processing 101.",
+        "url": "https://signalprocessingsociety.org/our-story/signal-processing-101",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "matlab",
+        "label": "MATLAB",
+        "track": "theory",
+        "level": 4,
+        "description": "Matrix-based numerical computing, data visualisation, and control system simulation. Start with MathWorks' free MATLAB Onramp.",
+        "url": "https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning",
+        "label": "Machine Learning",
+        "track": "theory",
+        "level": 2,
+        "description": "Supervised and unsupervised learning, neural networks, and classification — StatQuest's accessible introduction to ML for engineers.",
+        "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "fw_iv_kinematics",
+        "label": "FW/IV Kinematics",
+        "track": "theory",
+        "level": 2,
+        "description": "Forward and inverse kinematics for serial manipulators using the product of exponentials (PoE) and screw theory. Chapter 4 of Modern Robotics by Lynch & Park.",
+        "url": "https://hades.mech.northwestern.edu/images/7/7f/MR.pdf#chapter.4",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "underactuated_robotics",
+        "label": "Underactuated Robotics",
+        "track": "theory",
+        "level": 1,
+        "description": "Planning and control for systems with fewer actuators than degrees of freedom: trajectory optimisation, LQR, and locomotion. MIT 6.832.",
+        "url": "https://ocw.mit.edu/courses/6-832-underactuated-robotics-spring-2009/",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "mechanisms",
+        "label": "Mechanisms",
+        "track": "mechanical",
+        "level": 5,
+        "description": "Classical mechanical motion primitives — cams, gears, linkages, cranks, and escapements — as catalogued in the 507 Mechanical Movements reference.",
+        "url": "https://507movements.com/",
+        "external": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e03",
+        "source": "eng_math",
+        "target": "batteries"
+      }
+    },
+    {
+      "data": {
+        "id": "e04",
+        "source": "eng_math",
+        "target": "motors"
+      }
+    },
+    {
+      "data": {
+        "id": "e05",
+        "source": "eng_math",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e06",
+        "source": "oop",
+        "target": "data_structures"
+      }
+    },
+    {
+      "data": {
+        "id": "e07",
+        "source": "oop",
+        "target": "arduino"
+      }
+    },
+    {
+      "data": {
+        "id": "e08",
+        "source": "oop",
+        "target": "git"
+      }
+    },
+    {
+      "data": {
+        "id": "e09",
+        "source": "oop",
+        "target": "raspi"
+      }
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "linux",
+        "target": "raspi"
+      }
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "linux",
+        "target": "git"
+      }
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "linux",
+        "target": "ros"
+      }
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "breadboard",
+        "target": "batteries"
+      }
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "breadboard",
+        "target": "cables"
+      }
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "breadboard",
+        "target": "motors"
+      }
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "breadboard",
+        "target": "arduino"
+      }
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "data_structures",
+        "target": "ros"
+      }
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "data_structures",
+        "target": "path_planning"
+      }
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "data_structures",
+        "target": "software_eng"
+      }
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "git",
+        "target": "software_eng"
+      }
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "solidworks",
+        "target": "3d_printing"
+      }
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "solidworks",
+        "target": "fea"
+      }
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "materials",
+        "target": "3d_printing"
+      }
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "materials",
+        "target": "fea"
+      }
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "batteries",
+        "target": "escs"
+      }
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "motors",
+        "target": "escs"
+      }
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "motors",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "cables",
+        "target": "pcb_design"
+      }
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "arduino",
+        "target": "pcb_design"
+      }
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "arduino",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "raspi",
+        "target": "ros"
+      }
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "pcb_design",
+        "target": "fpga"
+      }
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "escs",
+        "target": "fpga"
+      }
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "control_theory",
+        "target": "kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "control_theory",
+        "target": "fpga"
+      }
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "ros",
+        "target": "path_planning"
+      }
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "ros",
+        "target": "software_eng"
+      }
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "kinematics",
+        "target": "path_planning"
+      }
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "materials",
+        "target": "cfd"
+      }
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "documentation",
+        "target": "systems_eng"
+      }
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "documentation",
+        "target": "dev_phases"
+      }
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "dev_phases",
+        "target": "design_reviews"
+      }
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "systems_eng",
+        "target": "design_reviews"
+      }
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "linear_algebra",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "linear_algebra",
+        "target": "kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "eng_math",
+        "target": "signal_processing"
+      }
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "signal_processing",
+        "target": "fpga"
+      }
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "mechanisms",
+        "target": "solidworks"
+      }
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "matlab",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "linear_algebra",
+        "target": "fw_iv_kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e55",
+        "source": "eng_math",
+        "target": "fw_iv_kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e56",
+        "source": "linear_algebra",
+        "target": "machine_learning"
+      }
+    },
+    {
+      "data": {
+        "id": "e57",
+        "source": "data_structures",
+        "target": "machine_learning"
+      }
+    },
+    {
+      "data": {
+        "id": "e58",
+        "source": "control_theory",
+        "target": "underactuated_robotics"
+      }
+    },
+    {
+      "data": {
+        "id": "e59",
+        "source": "fw_iv_kinematics",
+        "target": "underactuated_robotics"
+      }
+    }
+  ]
+}
