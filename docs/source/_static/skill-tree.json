@@ -417,6 +417,28 @@
         "url": "https://507movements.com/",
         "external": true
       }
+    },
+    {
+      "data": {
+        "id": "numerical_methods",
+        "label": "Numerical Methods",
+        "track": "theory",
+        "level": 4,
+        "description": "Root-finding, numerical integration, ODEs, and linear solvers — the computational backbone of simulation and control. Python Numerical Methods by Berkeley.",
+        "url": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+        "external": true
+      }
+    },
+    {
+      "data": {
+        "id": "state_estimation",
+        "label": "State Estimation",
+        "track": "theory",
+        "level": 2,
+        "description": "Kalman filters, extended KF, and Bayesian filtering for estimating robot state from noisy sensor measurements. Rlabbe's Kalman-and-Bayesian-Filters-in-Python.",
+        "url": "https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python",
+        "external": true
+      }
     }
   ],
   "edges": [
@@ -683,7 +705,7 @@
       "data": {
         "id": "e42",
         "source": "documentation",
-        "target": "systems_eng"
+        "target": "systems_arch"
       }
     },
     {
@@ -703,7 +725,7 @@
     {
       "data": {
         "id": "e46",
-        "source": "systems_eng",
+        "source": "systems_arch",
         "target": "design_reviews"
       }
     },
@@ -789,6 +811,167 @@
         "id": "e59",
         "source": "fw_iv_kinematics",
         "target": "underactuated_robotics"
+      }
+    },
+    {
+      "data": {
+        "id": "e60",
+        "source": "eng_math",
+        "target": "numerical_methods"
+      }
+    },
+    {
+      "data": {
+        "id": "e61",
+        "source": "linear_algebra",
+        "target": "numerical_methods"
+      }
+    },
+    {
+      "data": {
+        "id": "e62",
+        "source": "matlab",
+        "target": "numerical_methods"
+      }
+    },
+    {
+      "data": {
+        "id": "e63",
+        "source": "numerical_methods",
+        "target": "control_theory"
+      }
+    },
+    {
+      "data": {
+        "id": "e64",
+        "source": "numerical_methods",
+        "target": "fw_iv_kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e65",
+        "source": "numerical_methods",
+        "target": "cfd"
+      }
+    },
+    {
+      "data": {
+        "id": "e66",
+        "source": "control_theory",
+        "target": "state_estimation"
+      }
+    },
+    {
+      "data": {
+        "id": "e67",
+        "source": "signal_processing",
+        "target": "state_estimation"
+      }
+    },
+    {
+      "data": {
+        "id": "e68",
+        "source": "linear_algebra",
+        "target": "state_estimation"
+      }
+    },
+    {
+      "data": {
+        "id": "e69",
+        "source": "kinematics",
+        "target": "state_estimation"
+      }
+    },
+    {
+      "data": {
+        "id": "e70",
+        "source": "state_estimation",
+        "target": "path_planning"
+      }
+    },
+    {
+      "data": {
+        "id": "e71",
+        "source": "state_estimation",
+        "target": "underactuated_robotics"
+      }
+    },
+    {
+      "data": {
+        "id": "e72",
+        "source": "eng_math",
+        "target": "complex"
+      }
+    },
+    {
+      "data": {
+        "id": "e73",
+        "source": "complex",
+        "target": "signal_processing"
+      }
+    },
+    {
+      "data": {
+        "id": "e74",
+        "source": "oop",
+        "target": "ros"
+      }
+    },
+    {
+      "data": {
+        "id": "e75",
+        "source": "raspi",
+        "target": "opencv"
+      }
+    },
+    {
+      "data": {
+        "id": "e76",
+        "source": "oop",
+        "target": "opencv"
+      }
+    },
+    {
+      "data": {
+        "id": "e77",
+        "source": "opencv",
+        "target": "machine_learning"
+      }
+    },
+    {
+      "data": {
+        "id": "e78",
+        "source": "eng_math",
+        "target": "kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e79",
+        "source": "kinematics",
+        "target": "fw_iv_kinematics"
+      }
+    },
+    {
+      "data": {
+        "id": "e80",
+        "source": "motors",
+        "target": "signal_processing"
+      }
+    },
+    {
+      "data": {
+        "id": "e81",
+        "source": "dev_phases",
+        "target": "project_management"
+      }
+    },
+    {
+      "data": {
+        "id": "e82",
+        "source": "project_management",
+        "target": "systems_arch"
       }
     }
   ]

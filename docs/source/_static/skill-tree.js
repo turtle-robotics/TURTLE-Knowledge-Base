@@ -88,18 +88,18 @@
         style: { opacity: 0.15 }
       },
       {
-        // Hub node — branded centre origin
+        // Hub node — centre origin / entry point
         selector: 'node[id = "__hub__"]',
         style: {
-          label:                'TURTLE\nRobotics',
-          width:                72,
-          height:               72,
+          label:                'Getting\nStarted',
+          width:                100,
+          height:               100,
           shape:                'ellipse',
           'background-color':   '#1B2538',
           'border-color':       '#F3D127',
           'border-width':        3,
           'text-outline-color': '#1B2538',
-          'font-size':          '10px',
+          'font-size':          '12px',
           'font-weight':        '700',
           'z-index':            20,
           cursor:               'pointer'
@@ -323,7 +323,7 @@
     });
 
     // Synthetic hub node + spoke edges to every level-5 foundation node
-    const hubNode  = { data: { id: '__hub__', label: 'TURTLE\nRobotics', track: '__hub__', level: 6 } };
+    const hubNode  = { data: { id: '__hub__', label: 'Getting\nStarted', track: '__hub__', level: 6 } };
     const spokeEdges = elements
       .filter(function (el) { return el.data && !el.data.source && el.data.level === 5; })
       .map(function (el, i) {
@@ -405,7 +405,7 @@
     // ── Click: navigate to linked resource (hub resets view) ─────────────────
     cy.on('tap', 'node', function (evt) {
       const d = evt.target.data();
-      if (d.id === '__hub__') { cy.fit(undefined, 50); return; }
+      if (d.id === '__hub__') { window.location.href = 'getting_started.html'; return; }
       if (!d.url) return;
       if (d.external) {
         window.open(d.url, '_blank', 'noopener,noreferrer');
