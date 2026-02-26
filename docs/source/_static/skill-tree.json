@@ -255,6 +255,17 @@
     },
     {
       "data": {
+        "id": "gears",
+        "label": "Gears",
+        "track": "mechanical",
+        "level": 3,
+        "description": "Types of gears, gear trains, and gear ratios in mechanical systems.",
+        "url": "https://khkgears.net/new/gear_knowledge/introduction_to_gears/types_of_gears.html",
+        "external": true
+      }
+    },
+    {
+      "data": {
         "id": "3d_printing",
         "label": "3D Printing",
         "track": "mechanical",
