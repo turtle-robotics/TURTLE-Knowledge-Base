@@ -7,6 +7,8 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
    :caption: General
    :maxdepth: 1
 
+   getting_started
+   skill_tree
    Lab_and_Tools/lab_tools
    Lab_and_Tools/uni_resources
    Lab_and_Tools/web_resources
