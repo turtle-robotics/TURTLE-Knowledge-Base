@@ -28,7 +28,7 @@ Mechanical
 
  * CAD - Solidworks is the industry standard, but OnShape and Fusion 360 are free. Check out :doc:`SolidWorks <Mechanical_and_Design/solidworks>` for a starter workflow.
  * Mechanisms - understanding how to design linkages and mechanisms is crucial for building complex robots. Browse the classic `507 Mechanical Movements <https://507movements.com/>`_ for intuition on linkages.
- * Materials & Manufacturing - properties of materials & how to fabricate parts are essential. See :doc:`Materials <Mechanical_and_Design/materials>` and :doc:`3D Printers <Mechanical_and_Design/3d_printers>` for the most common fabrication method in the lab.
+ * Manufacturing - properties of materials & how to fabricate parts are essential. See :doc:`3D Printers <Mechanical_and_Design/3d_printers>` for the most common fabrication method in the lab.
 
 Electrical
 ~~~~~~~~~
