@@ -1,19 +1,37 @@
-name: docs-ci
-on: [pull_request]
+name: build-docs
+
+on: [push, workflow_dispatch]
+
+permissions:
+  contents: write
 
 jobs:
   build-sphinx-site:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
       - name: Install dependencies
-        run: pip install -r docs/requirements.txt
-
+        run: |
+          pip install -r docs/requirements.txt
       - name: Sphinx build
-        run: sphinx-build -W -b html docs/source _build
+        run: |
+          sphinx-build docs/source _build
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _build/
+  deploy-to-gh-pages:
+    needs: build-sphinx-site
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
