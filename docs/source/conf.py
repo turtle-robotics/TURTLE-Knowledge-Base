@@ -54,8 +54,11 @@ html_theme_options = {
 html_css_files = [
     'override.css',
     'custom.css',
+    'skill-tree.css',
 ]
 html_static_path = ['_static']
+# Copy raw assets (PDF posters, images) without renaming so links to ../static/... work.
+html_extra_path = ['static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
