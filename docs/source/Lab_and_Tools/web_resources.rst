@@ -115,6 +115,13 @@ Manufacturing, CAD, and CAE
 * CAE and FEA: `FEniCS <https://fenicsproject.org/>`_, `CalculiX <http://www.calculix.de/>`_
 * CAE learning: `University of Alberta ANSYS Tutorials <http://www.mece.ualberta.ca/tutorials/ansys/>`_
 
+Electronics
+-------------------------------
+* Terminology reference: `Jade Learning <https://www.jadelearning.com/electrical-engineering-terms/>`_
+* General lessons: `Electronics Tutorials <https://www.electronics-tutorials.ws/>`_
+* Reference/encyclopedia: `Electronics Notes <https://www.electronics-notes.com/>`_
+* Visual explanations: `Falstad Circuit Simulator <https://www.falstad.com/circuit/>`_
+
 Professional Exams
 ------------------
 
@@ -122,17 +129,15 @@ Professional Exams
 
 .. 
     idk how many ppl want the courses but here they are
-..
-    Robotics Courses
-    ~~~~~~~~~~~~~~~~
-..
-    * `QUT Robot Academy <https://robotacademy.net.au/>`_
-    * `MIT Introduction to Robotics <http://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/>`_
-    * `Stanford Applied Robot Design (CS235) <https://www.youtube.com/user/StanfordCS235/videos>`_ and `Stanford CS223A Introduction to Robotics <https://see.stanford.edu/Course/CS223A>`_
-    * `Hello (Real) World with ROS (edX) <https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system-2>`_
-    * `Advanced Robotics (UC Berkeley CS287) <https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/>`_
-    * `Building Arduino Robots and Devices (Coursera) <https://www.coursera.org/learn/arduino>`_
-    * `Modern Robotics: Mechanics, Planning, and Control (Coursera) <https://www.coursera.org/specializations/modernrobotics>`_
+
+Robotics Courses
+~~~~~~~~~~~~~~~~
+* `QUT Robot Academy <https://robotacademy.net.au/>`_
+* `MIT Introduction to Robotics <http://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/>`_
+* `Stanford Applied Robot Design (CS235) <https://www.youtube.com/user/StanfordCS235/videos>`_ and `Stanford CS223A Introduction to Robotics <https://see.stanford.edu/Course/CS223A>`_
+* `Hello (Real) World with ROS (edX) <https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system-2>`_
+* `Advanced Robotics (UC Berkeley CS287) <https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/>`_
+* `Modern Robotics: Mechanics, Planning, and Control (Coursera) <https://www.coursera.org/specializations/modernrobotics>`_
 
 Robotics Books
 ~~~~~~~~~~~~~~
