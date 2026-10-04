@@ -31,7 +31,7 @@ This knowledge base is designed to provide a supplimentary resource for TURTLE R
    Mechanical_and_Design/cfd
 
 .. toctree::
-   :caption: Electical
+   :caption: Electrical
    :maxdepth: 1
 
    Electronics_and_Power/batteries
