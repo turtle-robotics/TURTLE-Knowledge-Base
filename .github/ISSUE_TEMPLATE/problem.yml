@@ -1,0 +1,35 @@
+name: Documentation Problem
+description: Report incorrect, broken, or missing documentation.
+title: "[Fix]: "
+labels:
+  - "fix"
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Give the page name or URL.
+      placeholder: "Example: Electronics_and_Power/motors"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem type
+      options:
+        - Incorrect information
+        - Typo or grammar
+        - Broken link
+        - Formatting
+        - Missing image/resource
+        - Website/build problem
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem and the correct information when you know it.
+    validations:
+      required: true
