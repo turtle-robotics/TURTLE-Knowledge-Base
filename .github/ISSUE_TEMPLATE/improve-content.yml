@@ -1,0 +1,28 @@
+name: Improve Existing Content
+description: Suggest a change to an existing page.
+title: "[Improve]: "
+labels:
+  - "content:improve"
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Give the page name or URL.
+      placeholder: "Example: Electronics_and_Power/motors"
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What should be improved?
+      description: Describe the problem or the gap in the content.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: Describe the change you want to see.
+    validations:
+      required: false
