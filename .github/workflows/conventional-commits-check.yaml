@@ -1,19 +1,42 @@
-name: PR Conventional Commit Validation
-
-on:
-  pull_request_target:
-    types: [opened, synchronize, reopened, edited]
-
-permissions:
-  pull-requests: write
-
-jobs:
-  validate-pr-title:
+  label-pr:
+    name: Label PR
+    needs: validate-pr-title
     runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+
     steps:
-      - name: PR Conventional Commit Validation
-        uses:  ytanikin/pr-conventional-commits@1.4.0
-        with:
-         task_types: '["feat","fix","docs","test","ci","refactor","perf","chore","revert","build"]'
-         custom_labels: '{"feat": "feature", "fix": "fix", "docs": "documentation", "test": "test", "ci": "CI/CD", "refactor": "refactor", "perf": "performance", "chore": "chore", "revert": "revert","build": "build", "wip": "WIP"}'
-         add_scope_label: 'false'
+      - name: Apply PR type label
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TYPE: ${{ needs.validate-pr-title.outputs.type }}
+        run: |
+          case "$PR_TYPE" in
+            feat)     LABEL="feature" ;;
+            fix)      LABEL="fix" ;;
+            docs)     LABEL="documentation" ;;
+            test)     LABEL="test" ;;
+            ci)       LABEL="CI/CD" ;;
+            refactor) LABEL="refactor" ;;
+            perf)     LABEL="performance" ;;
+            chore)    LABEL="chore" ;;
+            revert)   LABEL="revert" ;;
+            build)    LABEL="build" ;;
+            *) exit 0 ;;
+          esac
+
+          # Remove any previous PR-type label.
+          for old_label in \
+            feature fix documentation test "CI/CD" \
+            refactor performance chore revert build
+          do
+            if [ "$old_label" != "$LABEL" ]; then
+              gh issue edit "$PR_NUMBER" \
+                --remove-label "$old_label" 2>/dev/null || true
+            fi
+          done
+
+          gh issue edit "$PR_NUMBER" --add-label "$LABEL"
