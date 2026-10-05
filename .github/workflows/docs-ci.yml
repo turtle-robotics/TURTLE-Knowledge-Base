@@ -2,10 +2,8 @@ name: docs-ci
 
 on:
   pull_request:
-    paths:
-      - "docs/**"
-      - ".readthedocs.yaml"
-      - ".github/workflows/docs-ci.yml"
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -13,12 +11,16 @@ permissions:
 jobs:
   build-docs:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.12"
+
       - name: Install dependencies
         run: pip install -r docs/requirements.txt
+
       - name: Build documentation
         run: sphinx-build -b html docs/source docs/build/html
